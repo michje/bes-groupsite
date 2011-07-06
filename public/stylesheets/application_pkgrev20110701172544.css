@@ -1,0 +1,1551 @@
+.sanity ol, .sanity ul {display: block; margin-top: 0.5em; margin-bottom: 1em; padding-left: 2.5em; font-size: inherit}
+.sanity ol {list-style-type: decimal}
+.sanity ul {list-style-type: disc}
+.sanity ol li, .sanity ul li {display: list-item; margin-bottom: 0.4em}
+.sanity i {display: inline; font-style: italic}
+.sanity code, .sanity tt, .sanity kbd, .sanity samp, .sanity xmp, .sanity pre, .editorBody textarea {font-family: monaco, "Courier New", "Terminal", monospace; line-height: 1.3em}
+.sanity pre, .sanity kbd, .sanity samp, .sanity xmp {display: block; overflow-x: auto; overflow-y: auto; width: 98%; white-space: pre; margin: 1em 0; padding: 4px}
+.sanity pre code, .sanity pre.code, .sanity kbd, .sanity samp, .sanity xmp {border: 1px solid #999; background: #333; color: #5e5}
+.sanity {line-height: 1.4em}
+.sanity p {margin: 1em 0}
+* html .sanity {zoom : 1}
+body {font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 1.5em}
+td, th, .standard-font, .standard-font-size {font-size: 12px}
+.standard-font, .standard-font-size {font-size: 12px ! important; line-height: inherit}
+.standard-font {font-weight: normal}
+.one-line {height: 1.5em; overflow: hidden; white-space: nowrap}
+h1 {font: normal 28px/35px "Trebuchet MS", Tahoma, Arial, sans-serif}
+h1.one-line {height: 35px}
+h2 {font: bold 22px "Trebuchet MS", Tahoma, Arial, sans-serif}
+h3 {font: bold 18px Tahoma, Arial, sans-serif}
+h3 sub, h3 sup, h3 small {font-size: 12px}
+h4 {font: bold 14px Tahoma, Arial, sans-serif}
+h5 {font: bold 13px Arial, sans-serif}
+h6 {font: bold 12px Arial, sans-serif}
+h2.one-line, h3.one-line, h4.one-line, h5.one-line, h6.one-line {height: 1.2em}
+#content table.sortable th a {font-weight: bold}
+#content table.sortable th small {font-size: 9px}
+.ownerline, #content .ownerline, .ownerline a, #content .ownerline a {font-size: 10px}
+div.cdlg a.close, div.mdlg a.close {font: normal 10px/14px Arial, sans-serif}
+div.cdlg_tip div.cdlg_content {line-height: 1.25em}
+.decor {font: normal 9px Arial, sans-serif}
+.mainhead div a, .mainhead div span {font-size: 13px; line-height: 20px}
+.mainhead div p a {font-size: 12px; line-height: 1.5em}
+.mainhead div span.line .decor {font: normal 9px/20px Arial, sans-serif}
+.mainhead div h2 {line-height: 24px}
+.mainhead div h3 {line-height: 20px}
+.mainhead div h2 a, .mainhead div h2 span {font: bold 22px "Trebuchet MS", Tahoma, Arial, sans-serif}
+.mainhead div h3 a, .mainhead div h3 span {font: normal 18px Tahoma, Arial, sans-serif}
+.maindetail p.help, .mainaction p.help {font: 13px Tahoma, Arial, sans-serif}
+ul.ractions li {font: bold 12px/26px Tahoma, Arial, sans-serif}
+#content .cactions a {font: 11px/21px Tahoma, Arial, sans-serif}
+#content .blocklist li.item .itemhead .cactions a {line-height: 13px}
+.mactions a.go span span span {font: bold 12px/12px "Trebuchet MS", Verdana, Arial, sans-serif}
+.mactions a.go span span span small {font: normal 9px/12px Arial, sans-serif}
+div.bactions a {font-weight: bold; font-size: 24px; line-height: 32px}
+div.bactions a span, div.bactions a p {font-size: 12px; line-height: 16px}
+div.bactions a p {font-weight: normal}
+ul.metal-menu-items li a {line-height: 20px; font-weight: bold}
+ul.metal-menu-items li span.item {font-weight: normal}
+ul.menu-items li {font-weight: normal; font-size: 12px; line-height: 24px; font-family: "Trebuchet MS", sans-serif}
+.picker ul.menu-items li {font-size: 14px; font-family: Arial, sans-serif}
+.dropdown-picker ul.menu-items li {font-size: 11px; line-height: 18px; font-family: Arial, sans-serif}
+ul.menu-items li a, ul.menu-items li span.item {font-weight: inherit; font-size: inherit; line-height: inherit; font-family: inherit}
+ul.menu-items li h5 {font-weight: bold; font-size: inherit; line-height: inherit; font-family: inherit; font-style: italic}
+.go span span span {font: bold 11px/12px Trebuchet MS, Verdana, Arial, sans-serif}
+.btn span b {font: bold 11px/16px Trebuchet MS, Verdana, Arial, sans-serif}
+.linkbtn span span span {font: bold 12px/18px Arial, sans-serif}
+.linkbtn h4, .linkbtn h5, .linkbtn h6 {line-height: 18px}
+a.dropdown-trigger {font: normal 12px/13px Arial, sans-serif}
+a.dropdown-trigger b.decor {font: normal 9px/13px Arial, sans-serif}
+#topnav {font: 11px/13px Tahoma, Arial, sans-serif}
+#topnav .decor {line-height: 12px; height: 13px}
+#topnav a {font-weight: bold}
+#topsplash h1 small {font-size: 17px; line-height: 20px}
+#navmain .menu li a {font: bold 12px/25px "Trebuchet MS", sans-serif}
+#navmain .menu li a.cx {font: bold 50px/29px "Trebuchet MS", sans-serif}
+#navmain .menu li a.cx span {font: normal 14px/37px Georgia, serif}
+#navmain .menu li:hover a.sub, #navmain .menu li.hover a.sub {line-height: 30px}
+#navmain .menu li:hover a.sub.cx, #navmain .menu li.hover a.sub.cx {line-height: 29px}
+#navmain.disabled .menu li:hover a.sub, #navmain.disabled .menu li.hover a.sub {line-height: 25px}
+#navmain.disabled .menu li:hover a.sub.cx, #navmain.disabled .menu li.hover a.sub.cx {line-height: 29px}
+#navmain .menu li a span {font: normal 9px/25px Arial, sans-serif}
+#navmain .menu li div.submenu ul li a {font: 12px/24px "Trebuchet MS", sans-serif}
+#about_groupsite .poweredby {font-family: Trebuchet MS, Verdana, Arial, sans-serif; font-size: 10px}
+#about_groupsite .poweredby .c {color: #5a6b49}
+#about_groupsite .poweredby .x {color: #006f71}
+#navsub .subbotnav li a {font: 12px/22px Tahoma, Arial, sans-serif}
+#navsub #switch_group_select {font: 11px/16px Tahoma, Arial, sans-serif}
+#navsub #switch_group label {font: bold 11px/30px Tahoma, Arial, sans-serif}
+#footer {font: 11px/14px "Trebuchet MS", Arial, sans-serif}
+#footer .poweredby p {line-height: 30px}
+#content .prevnext, #content .pages {font: 11px Tahoma, Arial, sans-serif}
+#content .prevnext li, #content .prevnext a {font-weight: bold}
+#content .pages li {line-height: 19px}
+select, table.list tr.f input {font: normal 11px Arial, sans-serif}
+.f select, textarea, .f input, input.f, select.f, textarea.f, .f div.txt {font: normal 12px Arial, sans-serif}
+textarea {line-height: 1.4em}
+.fr, .fr2 {line-height: 20px}
+label {font-size: 12px; line-height: 1.25em}
+.fc4 {line-height: 1.25em}
+.ft2, .ft2 p {font-style: italic; line-height: 1.25em}
+.ft4 {line-height: 16px}
+label.required {font-weight: bold}
+.nfc1 select, .nfc2 select, .nfc1 textarea, .nfc2 textarea, .nfc1 input, .nfc2 input {font: normal 11px Arial, sans-serif}
+.nfc1 label {font: normal 12px/24px Arial, sans-serif}
+.nfc1 div.itembox label {line-height: 18px}
+.nfc1 h6, .nfc1 {line-height: 24px}
+.nfc2, .nfc2 p, .nfc1-flush, .nfc1-flush p {line-height: 16px}
+.txt-help, .txt-limit {font: normal 11px Arial, sans-serify}
+textarea.mono {font: 12px/1.3em monaco, "Courier New", "Terminal", monospace}
+textarea.keywords-field {font: 11px/15px monaco, "Courier New", "Terminal", monospace}
+#errorExplanation, #errorExplanation h2, #errorExplanation p, #errorExplanation ul, #errorExplanation ul li {font-size: 12px}
+#errorExplanation h2, #errorExplanation p {font-weight: bold}
+.xsidebar .text, .xsidebar select {font: 11px/15px Tahoma, Arial, sans-serif}
+#loginbar ul li a, #xloginframe ul li a {font: 10px Tahoma, Arial, sans-serif}
+#wsidebar .browse-prevnext a.view {font: normal 10px Tahoma, Arial, sans-serif}
+#wsidebar .browse-prevnext div a {font: normal 11px/25px Tahoma, Arial, sans-serif}
+#wsidebar .browse-prevnext div a.vcr {font: normal 18px/105px Tahoma, Arial, sans-serif}
+#searchbar a.adv {font: 10px Tahoma, Arial, sans-serif}
+#nsidebar a.adv {line-height: 23px}
+#profilemeter .snapshot {font-weight: bold}
+#profilemeter .snapshot p {line-height: 23px}
+#profilemeter .snapshot ul li p.percent {line-height: 35px}
+#profilemeter .addlinks li a {line-height: 14px}
+.xsidebar .advert h6 {font: normal 11px/normal Tahoma, Arial, sans-serif}
+#content .addmod a {font: 11px Tahoma, Arial, sans-serif}
+#wsidebar .addmod span a {line-height: 21px}
+#wsidebar .addmod span a.learnmore b {font-size: 17px; line-height: 21px}
+#content .modulehead h4 {font: bold 12px/23px "Trebuchet MS", Tahoma, Arial, sans-serif}
+#content .cell h4.preview {font: bold 12px/23px "Trebuchet MS", Tahoma, Arial, sans-serif}
+#content .modulehead .f, #content .modulehead .f select {font: normal 10px/normal Arial, sans-serif}
+#content .modulehead label {font: bold 11px/normal Arial, sans-serif}
+#content .xsidebar .inv.modulehead h4 {font: bold 14px/23px Tahoma, Arial, sans-serif}
+#content .dropping {font: bold 14px Tahoma, Arial, sans-serif}
+#emptyPlaceMarker .dropping {line-height: 40px}
+#content .modules .handle a.dropdown-trigger, #content .modules .handle a.dropdown-trigger b.decor {line-height: 15px}
+#content .modules .handle .cactions a.dropdown-trigger, #content .modules .handle .cactions a.dropdown-trigger b.decor {line-height: 13px}
+#content .intro {font: 12px/16px Arial, sans-serif}
+#content .intro_summary .intro {font: 14px/18px Arial, sans-serif}
+#content .intro_summary .intro h2.default {font: bold 18px/24px "Trebuchet MS", sans-serif}
+#content .intro textarea {font: 12px/1.3em monaco, "Courier New", "Terminal", monospace}
+#content .modules .consist {line-height: normal}
+#content .modules .consist ul.list li a {font-weight: bold}
+#content .modules .consist ul.list li strong {font-size: 24px; line-height: normal}
+a.dateicon {font-weight: bold}
+a.dateicon span.day {font-size: 15px; line-height: 15px}
+a.dateicon span.month {font-size: 11px; line-height: 12px}
+#content .modules .events ul.blocklist li.item div.details a {font-weight: bold}
+#content .modules .newslinks li, #content .modules .sharlinks li, #content .modules .sharlinks li a {line-height: 14px}
+#content .modules .links .bottom .add {font-weight: bold; font-size: 11px}
+#content .modules .files ul.blocklist li {line-height: 15px}
+#content .modules .discussions ul.list li {line-height: 14px}
+#content .modules .discussions div.featured p.topic {font: normal 12px/16px Arial, sans-serif}
+#content .modules .members div.featured p {line-height: 18px}
+#content .modules .members div.featured p.bio {font: normal 12px/16px Arial, sans-serif}
+.menu .mainnav li, .menu .mainnav li a {font: bold 12px/20px "Trebuchet MS", sans-serif}
+.menu .subnav {font: 11px/22px Tahoma, Arial, sans-serif}
+.menu .subnav a.active {text-decoration: underline}
+.menu .subnav strong {font-weight: bold}
+#content #audits .auditslist li {line-height: 14px}
+#content #audits .auditslist li .funct li a {font: 11px/19px Tahoma, Arial, sans-serif}
+#content #audits .auditslist li .info .description {line-height: 1.4em}
+#content ul.iconlist li.item .details {line-height: 1.25em}
+#content ul.iconlist li.item .actions a {font-size: 12px}
+#content ul.iconlist li.item .actions a.primary {font-size: 16px; line-height: 20px}
+#content ul.blocklist li.item .itemhead h3 a {font: normal 18px Arial, sans-serif}
+#content ul.blocklist li.item em.info {font: 12px Arial, sans-serif}
+#content ul.blocklist li.item p.info {font: 12px Arial, sans-serif}
+#content ul.blocklist li.item .last strong {font-weight: normal}
+#content ul.blocklist li.item .last strong a {font-weight: bold}
+#content .profhead ul li a, #content .profhead ul li a:hover {font:12px/23px Tahoma, Arial, sans-serif}
+#content .filters ul li label {font:11px/19px Tahoma, Arial, sans-serif}
+#content #profpage .profhead .details {font-family: Tahoma, Arial, sans-serif}
+#content #profpage .profhead .info {line-height: 16px}
+#content #profpage .profhead .info .title {font-size: 12px}
+#content #profpage .profhead ul.act li a {line-height: 20px}
+#content #profpage #personas .tab a {font: bold 12px/16px Tahoma, Arial, sans-serif}
+#content #profpage #personas .tab a span {font: normal 9px/16px Arial, sans-serif}
+#content #profpage .section .modulehead h4 {font-size: 14px}
+.discuss .discbody h3 {line-height: 30px}
+.discuss .maindetail .bottopic ul li a {font: bold 12px /17px Tahoma, Arial, sans-serif}
+.discuss .maindetail .topicblock .topicinfo {line-height: 1.3em}
+.discuss .maindetail .topicblock .topicinfo ul li {font-size: 11px}
+.discuss .maindetail .topicblock .topictext .sanity {font-size: 13px}
+.topic .replhead label {font: bold 11px/20px Tahoma, Arial, sans-serif}
+.topic .replieds li .reptext strong em {font-size: 11px}
+.discuss #topics th, .discuss #topics td {font-size: 12px; line-height: 16px}
+.discuss #topics td.topic a.topic {font-size: 14px; font-weight: bold}
+.discuss #topics td.posts, .discuss #topics td.posts a, .discuss #topics td.views, .discuss #topics td.views a {font-size: 11px}
+#wsidebar .recent div a {font-weight: bold; line-height: 14px}
+#wsidebar .recent div span {font-weight: normal; font-size: 10px}
+#wsidebar .recent div span a {font-weight: normal}
+#my_profile .sect .navitem {line-height: 1.25em}
+#my_profile .sect li.navitem dl.actions.onoff dd a.callout {font-size: 11px}
+#my_profile .hookup p.hookup {font-weight: bold; line-height: 1.25em}
+div.cbox h6 {line-height: inherit}
+#feedback .left {font-weight: bold}
+#feedback td {font-size: 10px}
+#feedback .cancel {font-weight: bold}
+html, body, #xbody, form, fieldset, legend, p, ul, h5, h6 {margin: 0; padding: 0}
+fieldset, legend {border-width: 0}
+h1, h2, h3 {margin: 18px 0; padding: 0}
+h4 {margin: 15px 0; padding: 0}
+ul {list-style: none}
+html, body {border-width: 0; text-align: left}
+#xbody {position: relative; height: 100%; outline: none; *zoom: 1}
+#xbody:focus {outline: none}
+#main {margin: 0 auto; width: 966px; position: relative; top: 0; left: 0}
+* html #xbody {margin-right: 20px; margin-left: 20px; margin-bottom: 1px}
+#topnav {margin: 4px 15px 0 15px}
+#topnav .first {float: left; overflow: hidden; height: 19px}
+#topnav .last {float: right; overflow: hidden; height: 19px}
+#topnav li {padding: 0 4px; float: left}
+#topnav li.tight {padding: 0}
+#header {width: 966px; padding-top: 8px; position: relative; z-index: 10; background-repeat: no-repeat}
+#content {width: 950px; padding: 0 8px; position: relative; z-index: 8; background-repeat: repeat-y}
+#main #inner {margin: 0; padding: 0; min-height: 766px; background: #ffffff; overflow: hidden}
+* html #main #inner {height: 766px; overflow-y: visible}
+#content #narrow {margin-top: 5px; margin-left: 5px; width: 630px; float: left; display: inline; overflow: hidden}
+#content #wide {margin: 5px 5px 0 5px; width: 735px; float: left; min-height: 761px; display: inline}
+#contextual-menu {background: url(/img/account/plans/acc_summary_bg.gif); height: 49px; border-bottom: 1px solid whiteSmoke}
+#contextual-menu img.icon {float: left; padding-top: 2px}
+#contextual-menu h2 {margin: 0; line-height: 49px; float: left; padding: 0 14px}
+#contextual-menu li {float: left; display: block; height: 42px; padding: 7px 2px 0 2px; width: 71px; text-align: center; font-weight: bold; font-size: 11px}
+#contextual-menu li a {display: block}
+#contextual-menu li.inactive a {color: #909090}
+#contextual-menu li.active {background: url(/images/menus/tab-background.png) repeat-x top left; border-color: silver; border-style: solid; border-width: 1px 1px 0 1px; padding: 7px 1px 0 1px}
+#contextual-menu li a:hover {text-decoration: none}
+#content #wide #contextual-menu {margin: -5px -5px 0 -5px}
+* html #main #wide {height: 761px; overflow-y: visible}
+#content #full {margin: 5px 28px 0 23px}
+#content #footerAdvert {margin: 5px 5px 0 5px; width: 728px; height: 90px; overflow: hidden}
+html.print #topnav, html.print #header, html.print #footer, html.print #content #nsidebar, html.print #content #wsidebar {display : none}
+html.print #content #narrow, html.print #content #wide {width : 100%; padding : 0; margin : 0}
+html.print .mainhead div h2 span *, html.print .mainhead div span.line {display : none}
+html.print body, html.print #header, html.print #main #content, html.print #footertop {background : white}
+#content .ncolumn {width: 310px; margin-right: 5px}
+#content .wcolumn, #content #narrow.wcolumn {width: 625px; margin-right: 5px}
+#content .column1 {float: left}
+#content .column2 {float: right}
+#content #narrow.wcolumn .column2 {margin-right: 0}
+#content .wcolumn {clear: both}
+#content .rowbreak {clear: both; width: 625px; margin-right: 5px; height: 0; *height: 1px; *margin-bottom: -1px}
+#content .modules.obscuring .rowbreak {*float: left; *height: auto; *overflow-y: visible}
+#content .ncolumn .cell {width: 310px; padding-bottom: 5px; overflow: hidden}
+#content .wcolumn .cell {width: 625px; clear: both; padding-bottom: 5px; overflow: hidden}
+#content .ncolumn .cell.dropping {width: 302px}
+#content .wcolumn .cell.dropping {width: 617px}
+#content .rowbreak .dropping {margin-bottom: 5px}
+#content .column1 .cell, #content .rowbreak .cell {float: left}
+#content .column2 .cell {float: right}
+#content .column1 .cell.dragging, #content .column2 .cell.dragging {float: none}
+#content #wsidebar, #content #nsidebar {display: inline; margin: 5px 5px 0 0; float: right; overflow: hidden}
+#content #nsidebar {width: 200px}
+#content #wsidebar {width: 310px}
+#content #wsidebar .rowbreak {width: 310px; margin-right: 0}
+#content #wsidebar .ncolumn {margin-right: 0}
+#footer .xplate {padding: 4px 10px}
+#topnav .xplate {padding: 3px 5px}
+.mainhead {width: 100%; overflow: hidden}
+.mainhead img.icon {margin: 10px 0 0 8px; float: left; display: inline}
+.mainhead div {margin-left: 10px; height: 62px; float: left; display: inline; overflow: hidden}
+.mainhead div.with-extra {height: 76px}
+.mainhead p {clear: both; float: left; margin-left: 15px; display: block}
+.mainhead div p {margin-left: 0}
+.mainhead div h2 {margin: 12px 0 0 0; padding: 0; float: left; overflow: hidden; height: 25px}
+.mainhead div h3 {font-weight: normal; margin: 0; padding: 0; clear: left; float: left; overflow: hidden; height: 22px}
+.mainhead div a {clear: both; float: left; overflow: hidden; white-space: nowrap}
+.mainhead div h2 a, .mainhead div h3 a, .mainhead div p a {clear: none; float: none}
+.mainhead div span.line {clear: both; float: left; overflow: hidden; color: #777}
+.mainhead div span.line a {clear: none; float: none}
+.mainhead div .decor {color: #a8a8a8; padding: 0 5px}
+.mainhead div .sep {padding: 0 10px}
+.mainhead div h2 .decor, .mainhead div h3 .decor, h2 .decor, h3 .decor, h4 .decor {color: #777; margin: 0 2px; padding: 3px 0 3px 3px}
+.mainhead div .decor.first {padding-left: 0}
+.mainhead div .decor.last {margin-left: 4px}
+.mainhead div.paras {height: auto; float: none; clear: both; display: block; overflow: visible; padding-top: 1px}
+.mainhead div.paras p {float: none}
+#content #wide .mainhead div.paras {padding-top: 16px}
+.mainaction h3 a {font-weight: normal; text-decoration: underline}
+.mainaction h3 a:hover {text-decoration: none}
+.maindetail, .mainaction, .mainsects {margin: 26px 0 0 8px; overflow: hidden; clear: left}
+.mainsects {margin-left: 3px}
+#narrow .maindetail, #narrow .mainaction, #narrow .mainsects {margin-top: 6px}
+.maindetail h3, .mainaction h3, .mainsects h3 {margin: 0; padding: 0; overflow: hidden}
+.maindetail h3.only, .mainaction h3.only, .mainsects h3.only {margin-bottom: 18px}
+.maindetail p.help, .mainaction p.help, .mainsects p.help {margin: 15px 0; padding: 0}
+.maindetail .indented, .mainaction .indented, .mainsects .indented {margin-left: 0}
+#content .maindetail .ncolumn, #content .mainaction .ncolumn, #content .mainsects .ncolumn {width: 305px}
+#headinner {position: relative; top: 0; left: 0; width: 950px; margin: 0 8px}
+#topsplash {width: 950px; height: 122px; overflow: hidden}
+#topsplash h1 {margin: 0; padding: 0; display: block}
+#topsplash h1 span {display: block; margin-top: 37px; height: 35px; text-decoration: none; overflow: hidden; white-space: nowrap}
+#topsplash h1 small {display: block; margin-left: 1px; height: 20px; text-decoration: none; overflow: hidden; white-space: nowrap}
+#topsplash h1 {display: block; height: 104px; text-decoration: none; overflow: hidden; cursor: pointer}
+#topsplash h1, #topsplash h1 span, #topsplash h1 small {padding-left: 34px}
+#topsplash h1 span, #topsplash h1 small {padding-left: 0; cursor: pointer}
+.header h1 a:hover small {text-decoration: none}
+#headerlink:hover {text-decoration: none}
+#header #nav {width: 950px; height: 53px; position: relative; top: 0; left: 0}
+#header #navmainbg {width: 950px; height: 24px; position: absolute; bottom: 29px; left: 0; z-index: 8}
+#nav #navmain {position: absolute; top: 0; left: 0; height: 24px; z-index: 990; width: 950px}
+#nav #navsub {position: absolute; top: 24px; left: 0; width: 950px; height: 29px; overflow: hidden}
+#topnav #top_signup {margin: 10px 0; color: #333}
+#topnav #top_signup .signup-wrap {padding: 1em; background: #ebebeb}
+#topnav #top_signup #tsgroup_subdomain_available {color: green}
+#topnav #top_signup #tsgroup_subdomain_notavailable {color: #900}
+#topnav #top_signup .col1 {float: left; clear: both; width: 285px}
+#topnav #top_signup .col2 {float: left; width: 285px}
+#topnav #top_signup select {width: 175px}
+#topnav #top_signup #tsgroup_subdomain {margin: 0; margin: 0 ! important}
+#topnav #top_signup p.note {clear: both; font-size: 90%; padding-top: 10px}
+#topnav #top_signup p.create-or-cancel {clear: both; padding-top: 8px}
+#topnav #top_signup p.create-or-cancel a {color: #333; text-decoration: underline}
+#navmain .menu {float: left; display: inline; height: 24px}
+#navmain .group.menu {margin-left: 28px}
+#navmain .subgroup.menu {margin-left: 2px}
+#navmain .menu2 {margin: 0 25px 0 0; height: 24px; float: right}
+#navmain .menu li {height: 24px; margin-left: -2px; float: left; z-index: 5; display: inline; position: relative}
+#navmain .menu li a {float: left; height: 24px; padding: 0 21px 0 14px; overflow: hidden; white-space: nowrap}
+#navmain .menu li a.sub, #navmain .menu li a.actsub {padding-right: 8px}
+#navmain .menu li a span {position: relative; top: -1px}
+#navmain .menu li.last a {padding: 0 14px; background: none}
+#navmain .menu li.active a {margin-top: -5px; height: 29px; line-height: 34px; position: relative}
+#navmain .menu li a:hover, #navmain .menu li.active a {text-decoration: none}
+#navmain .menu li a.cx {padding: 0 2px; width: 34px; height: 29px; position: relative; text-align: center; overflow: hidden; top: -6px; cursor: default}
+#navmain .menu li a.cx span {position: absolute; top: 0; left: 0; width: 100%; text-align: center; overflow: hidden}
+#navmain .menu li span.sep {position: absolute; right: 1px; top: 6px; height: 12px; overflow: hidden}
+#navmain .menu li.active span.sep, #navmain .menu li:hover span.sep, #navmain .menu li.hover span.sep {visibility: hidden}
+#navmain.disabled .menu li:hover span.sep, #navmain.disabled .menu li.hover span.sep {visibility: visible}
+#navmain .menu li.empty a span {visibility: hidden}
+#navmain .menu li:hover, #navmain .menu li.hover {height: 24px; z-index: 10}
+#navmain.disabled .menu li:hover, #navmain.disabled .menu li.hover {height: 29px; z-index: 5}
+#navmain .menu li:hover a.sub, #navmain .menu li.hover a.sub {position: relative; height: 25px; margin-top: -5px; padding: 0 6px 2px 12px; border-style: solid; border-width: 2px 2px 0 2px}
+#navmain .menu li:hover a.sub.cx, #navmain .menu li.hover a.sub.cx {padding: 0; height: 31px; margin-top: -2px}
+#navmain.disabled .menu li:hover a.sub, #navmain.disabled .menu li.hover a.sub {position: static; height: 24px; margin-top: 0; padding: 0 8px 0 14px; border-width: 0}
+#navmain.disabled .menu li:hover a.sub.cx, #navmain.disabled .menu li.hover a.sub.cx {padding: 0 2px; height: 29px; margin-top: 0}
+#navmain .menu li div.submenu {display: none; position: absolute; left: 0; top: 22px; width: 168px; margin: 0; padding: 0; z-index: 991; background: url(../images/gs2/submenu-topshadow.png) no-repeat 0 0; overflow: hidden}
+#navmain .menu li.site-info div.submenu {left: auto; right: -6px}
+#navmain .menu li div.submenu .subtopbg {display: block; height: 11px; margin: 0 6px 0 0; background: #fff; vertical-align: top; text-indent: -9999px; overflow: hidden}
+#navmain .menu li div.submenu .subbg {width: 168px; background: url(../images/gs2/submenu-shadow.png) repeat-y 0 0; overflow: hidden}
+#navmain .menu li:hover div.submenu, #navmain .menu li.hover div.submenu {display: block}
+#navmain.disabled .menu li:hover div.submenu, #navmain.disabled .menu li.hover div.submenu {display: none}
+#about_groupsite .caption {text-align: center; margin-top: 1em}
+#about_groupsite .caption h5 {margin-bottom: 0; padding-bottom: 0}
+#about_groupsite p.details {clear: both; overflow: auto; text-align: center}
+#about_groupsite p.details b {clear: both; float: left; width: 47%; text-align: right; overflow: hidden}
+#about_groupsite p.details span {float: right; width: 47%; text-align: left; overflow: hidden}
+#about_groupsite p.last {margin-bottom: 0}
+#navmain .menu li div.submenu ul {position: relative; display: block; float: none; height: auto; width: 158px; margin: 0 6px 0 0; padding: 0; z-index: 992; background: #fff; overflow: hidden}
+#navmain .menu li div.submenu ul li {display: block; float: none; height: 24px; width: 158px; margin: 0; padding: 0; z-index: 993; background: none}
+#navmain .menu li div.submenu ul li a {display: block; float: none; height: 24px; padding: 0 15px; z-index: 994; background: #fff url(../images/gs2/submenu-sep.gif) no-repeat 9px 23px; white-space: nowrap; overflow: hidden}
+#navmain .menu li div.submenu ul li a.nested {padding-left: 2em}
+#navmain .menu li div.submenu .subbotbg {display: block; width: 168px; height: 32px; background: url(../images/gs2/submenu-botshadow.png) no-repeat 0 0; overflow: hidden}
+#navmain .menu li div.submenu .subbotbg span {display: block; height: 24px; margin: 0 6px 8px 0; background: #fff; overflow: hidden; text-indent: -9999px; vertical-align: top; -webkit-border-bottom-left-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-bottomleft: 2px; -moz-border-radius-bottomright: 2px}
+#navmain .menu li div.submenu ul.scrollable {max-height: 168px; overflow: auto; overflow-x: hidden; overflow-y: auto}
+#navsub {float: left; display: inline; margin: 0; height: 22px; width: 100%; overflow: hidden}
+#navsub .subbotnav {display: block; margin: 7px 12px 0 8px; height: 22px; white-space: nowrap; overflow: hidden}
+#navsub .subbotnav li {float: left; height: 22px; white-space: nowrap}
+#navsub .subbotnav li a {float: left; height: 22px; padding: 0 15px; white-space: nowrap}
+#navsub .subbotnav li a:hover {text-decoration: none}
+#navsub .subbotnav li a.nested {display: none}
+#footertop {padding: 0 8px; width: 950px; height: 20px; background-repeat: no-repeat; overflow: hidden}
+#footertop .pad {height: 5px; overflow: hidden}
+#footer {padding: 0 10px; width: 946px; height: 44px; overflow: hidden}
+#footer .text {float: left; margin: 0; padding: 0; overflow: hidden}
+#footer .text ul li {float: left; margin: 0; padding: 0 5px 0 6px; background: url(../images/gs2/footer-sep.gif) no-repeat 0 3px}
+#footer .text ul li.first {padding-left: 0; background: none}
+#footer .text ul {float: left; height: 14px; overflow: hidden; margin: 0; padding: 0}
+#footer .text p {clear: left; margin: 0; padding: 0; overflow: hidden}
+#footer .poweredby {float: right; width: 139px; overflow: hidden}
+#footer .poweredby .xplate {padding: 3px 0 2px 10px}
+#footer .poweredby a {float: right; margin-right: 14px; width: 109px; height: 39px; background: url(../images/v4/cx-groupsite-small.png) no-repeat 0 0; overflow: hidden; text-indent: -9999px}
+#footer .poweredby p {margin-right: 9px; float: right; display: inline; overflow: hidden}
+#footer.whitelabel .text {float: none}
+#subgroup-header {height: 100px; overflow: hidden}
+#subgroup-header img.subgroup-logo {float: left; margin-right: 0.5em}
+#subgroup-header a:hover {text-decoration: none}
+#subgroup-header h2 {font-size: 2.5em; margin: 0; padding: 7px 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 25px 32px; height: 36px}
+#subgroup-header .subgroup-hint {font-size: 50% }
+img {border: none}
+a img {text-decoration: none}
+a:hover img {text-decoration: none}
+.ie_noclear {clear: both}
+.ie_clear {clear: both; height: 0; overflow: hidden}
+.obscuring object, .obscuring embed, object.obscuring, embed.obscuring {visibility: hidden}
+.ie_minheight {display: none}
+ul.square-bullets {list-style: square inside; padding-left: 1em}
+em.glossary, u.glossary, span.glossary, a.glossary {text-decoration: none; font-weight: normal; border-bottom-width: 1px; border-bottom-style: dashed}
+a.upgrade {font-size: 12px; text-decoration: underline; font-weight: normal; color: #ca2124}
+h3 a.upgrade, h4 a.upgrade {font-size: .8em}
+strong.error {color: #ca2124}
+div.right-links {margin-right: 1em; text-align: right}
+span.right-links {float: right; margin-right: 5px}
+.half-column {width: 50%; float: left; position: relative; margin-right: -3px}
+.gray {color: #777}
+.grayed-out, .grayed-out label, .grayed-out input, .grayed-out textarea, .grayed-out select {color: #999}
+.grayed-out input.chk {background: #ddd}
+li.icon-bullet {margin: 5px 0 0 0; vertical-align: top; display: block; clear: both; padding: 0 0 0 20px; background-repeat: no-repeat; background-position: 0 0}
+.padded, div.padded {padding: 1em}
+.padded p, div.brk, p.brk, h5.brk, h6.brk, table.brk {margin-bottom: 1em}
+div.brk2, p.brk2, h5.brk2, h6.brk2, table.brk2 {margin-bottom: 2em}
+.paras p {margin: 1em 0}
+.paras p.last {margin-bottom: 0.5em}
+.paras h5, .paras h6 {margin: 0.85em 0}
+.side-margins {margin: 0 0.85em}
+a.add-flat {padding-left: 17px; background: url(../images/forms/add.png) no-repeat center left}
+a.delete-flat {padding-left: 17px; background: url(../images/forms/remove.png) no-repeat center left}
+a.add-round {padding-left: 17px; background: url(../images/icons/add.png) no-repeat center left}
+a.delete-round {padding-left: 17px; background: url(../images/icons/delete.png) no-repeat center left}
+a.comment-balloon {padding-left: 17px; background: url(../images/icons/comment.png) no-repeat center left}
+a.rss-bullet {padding-left: 17px; background: url(../images/cxicons/16/rss-bullet.png) no-repeat center left}
+a.expand-flat {padding-left: 17px; background: url(../images/icons/tree_plus.gif) no-repeat center left}
+a.collapse-flat {padding-left: 17px; background: url(../images/icons/tree_minus.gif) no-repeat center left}
+a.tree-plus-flat {padding-left: 17px; background: url(../images/icons/tree_plus.gif) no-repeat center left}
+a.tree-minus-flat {padding-left: 17px; background: url(../images/icons/tree_minus.gif) no-repeat center left}
+a.mail-link {padding-left: 17px; background: url(../images/icons/email.png) no-repeat center left}
+a.subscribe-email {padding-left: 17px; background: url(../images/icons/email.png) no-repeat center left}
+a.green-check {padding-left: 24px; background: url(../images/alacarte/Check.gif) no-repeat center left}
+a.green-rarrow {padding-left: 13px; background: url(../images/alacarte/learn_more.jpg) no-repeat center left}
+a.green-darrow {padding-left: 13px; background: url(../images/alacarte/learn_more_active.jpg) no-repeat center left}
+a.rss-icon {padding-left: 17px; background: url(../images/gs2/rss-icon.gif) no-repeat center left}
+a.print {padding-left: 17px; background: url(../images/icons/printer.png) no-repeat center left}
+a.close-gray {float: left; display: block; line-height: 17px; height: 17px; width: 17px; overflow: hidden; color: #000; background: url(../images/gs2/close-gray.png) no-repeat 0 0; text-indent: -9999px}
+a.close-text, a.close-text:hover, a.close-text u {text-decoration: none}
+a.close-text:hover u {text-decoration: underline}
+a.goto-folder {padding-left: 17px; background: url(../images/icons/folder_go.png) no-repeat center left}
+a.goto-discussions, a.goto-comments {padding-left: 17px; background: url(../images/icons/comment_go.png) no-repeat center left}
+a.whats-this, a.whats-this-blk {padding-left: 25px; background: url(../images/icons/help.png) no-repeat 7px 50%; cursor: pointer; cursor: help}
+a.whats-this-blk {padding-left: 18px; background-position: -1px 50%}
+.nlblk {display: inline-block ! important; display: -moz-inline-stack ! important; zoom: 1; display: inline; vertical-align: top}
+.vatb {vertical-align: text-bottom}
+.vatt {vertical-align: text-top}
+.vabl {vertical-align: baseline}
+.vamd {vertical-align: middle}
+p.big {font-size: 14px}
+#content .ownerline, .ownerline {color: #777}
+#content .ownerline span, .ownerline span {color: #444}
+#content .ownerline span.via, .ownerline span.via {color: #777}
+div.help, #welcome p.help {margin: 0 0 8px 0; padding: 8px 10px; background: #eaeaea; border:1px solid #ddd}
+div.flash {padding-left: 30px; color: #000}
+div.help p {margin: 0 0 10px 0; line-height: 1.4em}
+div.help p.last {margin-bottom: 0}
+div.flash_help {background: #eaeaea url(../images/icons/help.png) no-repeat 5px 8px; border:1px solid #ddd}
+div.flash_tip {background: #e1e7ff url(../images/icons/lightbulb.png) no-repeat 6px 9px; border: 1px solid #c1c7df}
+div.flash_rss {background: #e1e7ff url(../images/content/rss.png) no-repeat 6px 9px; border: 1px solid #c1c7df}
+div.flash_info {background: #eaeaea url(../images/icons/information.png) no-repeat 5px 8px}
+div.flash_notice {background: #ffffe7 url(../images/icons/error.png) no-repeat 5px 8px; border: 1px solid #efefa7}
+div.flash_error {background: #ffffe7 url(../images/icons/exclamation.png) no-repeat 5px 8px; border: 1px solid #efefa7; color: #900000}
+.itip, .tiptrigger, .itip:hover, .tiptrigger:hover {cursor: help}
+a.tiptrigger, a.tiptrigger:hover, span.tiptrigger, sup.tiptrigger, sub.tiptrigger {text-decoration: underline}
+img.itip {vertical-align: middle}
+sup.itip {margin-left: 1.4em}
+.system-message, .notice {background-color: #ffd; border: 1px solid #ec4; padding: 5px; margin: 1em 1em 1em 0}
+.system-message .caption {background: transparent url(../images/icons/exclamation.png) no-repeat 0 0; padding-left: 20px; margin-bottom: 1em; line-height: 20px; font-size: 12px}
+.notice .caption {background: transparent url(../images/icons/exclamation.png) no-repeat 0 0; padding-left: 20px; line-height: 20px}
+ul.ractions {margin-top: 1px; overflow: hidden}
+ul.options {clear: right; margin-top: 9px; overflow: hidden}
+ul.ractions li, ul.options li {margin: 0 0 4px 4px; float: right; display: inline; overflow: hidden}
+ul.ractions li a {float: left; height: 26px; padding: 0 15px; border: 1px #d7d7d7 solid; background-repeat: no-repeat; overflow: hidden; background-position: 8px 5px}
+ul.ractions li a.create {padding: 0 15px 0 9px}
+ul.ractions li a.delete {padding-left: 30px; background-image: url(../images/icons/delete.png)}
+ul.ractions li a.view {padding-left: 30px; background-image: url(../images/icons/magnifier.png)}
+ul.ractions li a.move {padding-left: 30px; background-image: url(../images/icons/folder_go.png)}
+ul.ractions li a.edit {padding-left: 30px; background-image: url(../images/emb_edit.gif)}
+ul.ractions li a.subs {padding-left: 30px; background-image: url(../images/icons/email.png); background-position: 8px 6px}
+ul.ractions li a.unlock {padding-left: 30px; background-image: url(../images/icons/lock_open.png)}
+ul.ractions li a.locked, ul.ractions li a.lock {padding-left: 30px; background-image: url(../images/icons/lock.png)}
+ul.ractions li a.page-edit {padding-left: 30px; background-image: url(../images/icons/page_edit.png)}
+ul.ractions li a.tiles {padding-left: 30px; background-image: url(../images/icons/application_view_tile.png)}
+ul.ractions li a.print {padding-left: 30px; background-image: url(../images/icons/printer.png)}
+.cactions {padding-right: 5px; float: right; display: inline; height: 23px}
+* html .cactions {padding-right: 0; margin-right: 5px}
+.cactions a, .cactions span.cact {float: left; display: inline}
+.cactions a.edit {text-decoration: underline; padding: 0 1px}
+.cactions .move, a.iact {text-indent: -9999px; text-decoration: none; overflow: hidden}
+.cactions .move {width: 18px}
+a.iact {float: left; display: inline; width: 16px; margin: 3px 1px 0 1px; line-height: 16px; height: 16px; background-repeat: no-repeat}
+.cactions a:hover {text-decoration: none}
+.cactions .move {background: url(../images/gs2/move-gray.gif) no-repeat 3px 0}
+.handle.inv .cactions .move, .cactions.light .move, .cactions.gray .move {background-image: url(../images/gs2/move-gray.gif)}
+.handle.inv a.iact, .dark a.iact {background: transparent url(../images/gs2/action-dark.png) no-repeat 0 0}
+.gray a.iact, .light a.iact {background: transparent url(../images/gs2/action-light.png) no-repeat 0 0}
+#content table.list {width: 100%; border-collapse: collapse; padding: 0}
+#content table.list th, #content table.list td {text-align: left; vertical-align: top; padding: 4px}
+#content table.list tr.even td, #content table.list tbody.even td {background-color: #e7e7e7}
+#content table.list tr.lined td, #content table.list tbody.lined td {border-bottom: 1px #eaeaea solid}
+#content table.list tr.selected.odd td {background-color: #FFFFCC}
+#content table.list tr.selected.even td {background-color: #f3f3d9}
+#content table.sortable th, #content table.sortable th a {color: #646464}
+#content table.sortable th a {text-decoration: underline}
+#content table.sortable th a:hover {text-decoration: none}
+.linkbtn, .linkbtn:hover {text-decoration: none}
+.linkbtn {float: left; margin: 0 4px 0 2px; padding: 1px 0 0 0; overflow: hidden; position: relative; vertical-align: middle; outline: none; cursor: pointer; white-space: nowrap; height: 24px}
+.linkbtn.disabled {opacity: 0.5; cursor: default}
+.linkbtn span {display: block; margin: 0 0 -1px 0; padding: 1px; position: relative; background: transparent}
+.linkbtn span span {margin: -2px 0; padding: 1px 0}
+.linkbtn span span span {position: static; padding: 1px 8px; margin: 0; vertical-align: middle; text-align: center; color: #333; white-space: nowrap}
+.linkbtn span span span ul {text-align: left}
+.linkbtn span img {margin: 0 2px 1px 0; vertical-align: middle}
+a.linkbtn:active span, .linkbtn:hover span, .linkbtn_active span, .linkbtn_hover span {background: #ececec; border-right: 1px solid #e2e2e2; padding-right: 0}
+tr.even a.linkbtn.disabled:active span, tr.even .linkbtn.disabled:hover span, tr.even .linkbtn_active.disabled span, tr.even .linkbtn_hover.disabled span, a.linkbtn.disabled:active span, .linkbtn.disabled:hover span, .linkbtn_active.disabled span, .linkbtn_hover.disabled span {background: transparent; border: none; padding: 1px}
+tr.even a.linkbtn.disabled:active span span, tr.even .linkbtn.disabled:hover span span, tr.even .linkbtn_active.disabled span span, tr.even .linkbtn_hover.disabled span span, a.linkbtn.disabled:active span span, .linkbtn.disabled:hover span span, .linkbtn_active.disabled span span, .linkbtn_hover.disabled span span {padding: 1px 0}
+tr.even a.linkbtn.disabled:active span span span, tr.even .linkbtn.disabled:hover span span span, tr.even .linkbtn_active.disabled span span span, tr.even .linkbtn_hover.disabled span span span, a.linkbtn.disabled:active span span span, .linkbtn.disabled:hover span span span, .linkbtn_active.disabled span span span, .linkbtn_hover.disabled span span span {padding: 1px 8px}
+a.linkbtn:active span span, .linkbtn:hover span span, .linkbtn_active span span, .linkbtn_hover span span {border-width: 0; border-bottom: 1px solid #e2e2e2; padding-bottom: 0}
+a.linkbtn:active span span span, .linkbtn:hover span span span, .linkbtn_active span span span, .linkbtn_hover span span span {border-width: 0; padding: 1px 8px; background: #ececec}
+tr.even a.linkbtn:active span, tr.even .linkbtn:hover span, tr.even .linkbtn_active span, tr.even .linkbtn_hover span {background: #d4d4d4; border-right: 1px solid #cacaca; padding-right: 0}
+tr.even a.linkbtn:active span span, tr.even .linkbtn:hover span span, tr.even .linkbtn_active span span, tr.even .linkbtn_hover span span {border-width: 0; border-bottom: 1px solid #cacaca; padding-bottom: 0}
+tr.even a.linkbtn:active span span span, tr.even .linkbtn:hover span span span, tr.even .linkbtn_active span span span, tr.even .linkbtn_hover span span span {border-width: 0; padding: 1px 8px; background: #d4d4d4}
+.linkbtnbar {background: #f2f2f2; padding: 4px; float: right}
+.linkbtnbar a.linkbtn:active span, .linkbtnbar .linkbtn:hover span, .linkbtnbar .linkbtn_active span, .linkbtnbar .linkbtn_hover span {background: #dcdcdc; padding: 1px; border-width: 0}
+.linkbtnbar a.linkbtn:active span span, .linkbtnbar .linkbtn:hover span span, .linkbtnbar .linkbtn_active span span, .linkbtnbar .linkbtn_hover span span {padding: 1px 0; border-width: 0}
+.linkbtnbar a.linkbtn:active span span span, .linkbtnbar .linkbtn:hover span span span, .linkbtnbar .linkbtn_active span span span, .linkbtnbar .linkbtn_hover span span span {background: #dcdcdc; padding: 1px 8px}
+.linkbtn h4, .linkbtn h5, .linkbtn h6 {margin: 0; padding: 0; height: 20px}
+.linkbtn-line-block {font-size: 12px; line-height: 22px}
+div.right-links .linkbtn {float: right; margin: 0 2px 0 4px}
+div.right-links .linkbtn-line-block {float: right}
+button.go::-moz-focus-inner {border-width: 0}
+a.go, a.go:hover {text-decoration: none}
+.go {margin: 0 2px; padding: 1px 1px 1px 0; background: transparent; color: transparent; border: 1px solid transparent; border-width: 0px; outline: none; cursor: pointer; white-space: nowrap; height: 21px; overflow: hidden; position: relative; -moz-appearance: none ! important}
+a.go {float: left; margin-top: 1px}
+.go span {display: block; margin: 0 0 -1px 0; padding: 1px 0; position: relative; border-width: 0; border-left: 1px solid #a8a8a8; border-right: 1px solid #a8a8a8; background: #eaeaea url(../images/gs2/gbtn-bg.gif) repeat-x 0 0}
+.go span span {display: block; margin: -2px 0; padding: 1px 2px; position: relative; border-width: 0; border-top: 1px solid #a8a8a8; border-bottom: 1px solid #c4c4c4; background: transparent}
+.go span span span {display: block; position: static; padding: 1px; margin: 0; border-width: 0; background: transparent; color: #333; white-space: nowrap}
+.go span span span span {display: inline; padding: 0; margin: 0}
+button.go span span span span {width: auto}
+button.go::-moz-focus-inner {border-width: 0}
+.go.go_disabled span span span {color: #999}
+.go.go_disabled span {border-left-color: #c4c4c4; border-right-color: #c4c4c4}
+.go.go_disabled span span {border-top-color: #c4c4c4; border-bottom-color: #d5d5d5}
+a.btn, a.btn:hover {text-decoration: none}
+.btn {position: relative; height: 26px; padding: 1px 1px 1px 0; margin: 3px 1px; outline: none; background: transparent; color: transparent; border: 1px solid #fff; border-width: 0; cursor: pointer; vertical-align: middle}
+button.btn {height: 30px; padding: 0 1px 2px 0; -moz-appearance: none ! important}
+a.btn {display: block; float: left}
+.btn b {display: block; margin: 0 0 -1px 0; padding: 1px 0; position: relative; cursor: pointer; border: 1px solid transparent; border-top-width: 0; border-bottom-width: 0}
+* html .btn b {border-color: white}
+.btn b b {display: block; margin: -2px 0; padding: 0 1px; background: #f0f0f0; border-width: 1px; border-left-width: 0; border-right-width: 0}
+.btn b b b {display: block; border-color: #e4e4e4; background: #d1d1d1}
+.btn b b b b {display: block; margin: -1px 0; padding: 0; background: white; border-top-color: #d2d2d2; border-bottom-color: #c0c0c0}
+.btn b b b b b {display: block; margin: -2px 0; padding: 0 1px; border-top-color: #f0f0f0; border-bottom-color: #e2e2e2; background: transparent}
+.btn b b b b b b {display: block; padding: 2px 0; border-color: #fff; background: transparent}
+.btn span {display: block; margin: 0; padding: 1px 8px; border: 1px solid white; border-top-width: 2px; border-bottom-width: 2px; position: relative; cursor: pointer}
+.btn span b {display: inline; border-width: 0; color: white; margin: 0; position: static; background: transparent; white-space: nowrap; text-align: center; text-transform: uppercase}
+.btn:hover b, .btn:active b, .btn_hover b, .btn_active b {border-color: #efefef}
+.btn:hover b b, .btn:active b b, .btn_hover b b, .btn_active b b {border-top-color: #e4e4e4; border-bottom-color: #dcdcdc; background: #d7d7d7}
+.btn:hover b b b, .btn:active b b b, .btn_hover b b b, .btn_active b b b {border-top-color: #c7c7c7; border-bottom-color: #b6b6b6; background: #aaaaaa}
+.btn:hover b b b b, .btn:active b b b b, .btn_hover b b b b, .btn_active b b b b {border-top-color: #bebebe; border-bottom-color: #a8a8a8; background: white}
+.btn:hover b b b b b, .btn:active b b b b b, .btn_hover b b b b b, .btn_active b b b b b {border-top-color: #e2e2e2; border-bottom-color: #d0d0d0; background: transparent}
+.btn:hover b b b b b b, .btn:active b b b b b b, .btn_hover b b b b b b, .btn_active b b b b b b {border-color: #f2f2f2}
+.btn:hover span, .btn:active span, .btn_hover span, .btn_active span {border-color: white}
+.btn:hover span b, .btn:active span b, .btn_hover span b, .btn_active span b {background: transparent}
+button.btn::-moz-focus-inner {border-width: 0}
+.btn.btn_disabled {cursor: default}
+.btn.btn_disabled b {border-color: transparent; cursor: default}
+* html .btn.btn_disabled b {border-color: white}
+.btn.btn_disabled b b {background: #f7f7f7}
+.btn.btn_disabled b b b {border-color: #ececec; background: #d9d9d9}
+.btn.btn_disabled b b b b {border-top-color: #dbdbdb; border-bottom-color: #d9d9d9; background: white}
+.btn.btn_disabled b b b b b {border-top-color: #f7f7f7; border-bottom-color: #f2f2f2; background: transparent}
+.btn.btn_disabled b b b b b b {border-color: #fff}
+.btn.btn_disabled span {background: #f0f0f0; border-color: white; cursor: default}
+.btn.btn_disabled span b {color: #909090; background: transparent}
+.btn.btn_disabled:active {top: 0; left: 0}
+div.right-links a.btn {float: right}
+div.menu-container {position: relative; display: block; clear: both; margin: 0; padding: 0; top: 0}
+div.menu-pane {position: absolute; display: block; clear: both; margin: 0; padding: 0; top: 23px; right: 0; z-index: 9}
+div.menu-container div.menu-pane {top: 0}
+div.mactions {position: relative; z-index: 9; clear: left; float: left}
+div.mactions a.go {position: relative; z-index: 10; height: 25px}
+div.mactions div.menu-container, div.metal-popup-menu div.menu-container {clear: both; position: relative; top: -1px; left: -6px; z-index: 5}
+div.mactions div.x, div.metal-popup-menu div.x {margin: 0 0 -1px 0; padding: 1px 0; left: 0; border-left: 1px solid #d9d9d9; border-right: 1px solid #acacac}
+div.mactions div.x div.x, div.metal-popup-menu div.x div.x {margin: -2px 0; padding: 0 1px; background: #eaeaea; border-width: 0; border-top: 1px solid #d8d8d8; border-bottom: 1px solid #acacac}
+div.mactions a.go em {position: relative; display: block; margin: 0 0 -1px 0; padding: 0 0 1px 0; background: transparent}
+div.mactions a.go em em {margin: 0; padding: 1px}
+div.mactions a.go em em em {margin-top: -2px; padding: 5px 5px 2px 5px}
+div.mactions.active a.go em {border-bottom: 1px solid #eaeaea; padding: 0; background: #eaeaea}
+div.mactions.active a.go em em {margin: 0; padding: 1px 0; border-width: 0; border-left: 1px solid #d9d9d9; border-right: 1px solid #acacac}
+div.mactions.active a.go em em em {margin-top: -2px; padding: 4px 5px 2px 5px; border-width: 0; border-top: 1px solid #d8d8d8}
+div.mactions a.go span span {padding-left: 5px; padding-right: 5px}
+div.mactions a.go span small {color: #646464}
+div.mactions a:hover {text-decoration: none}
+div.metal-popup-menu {position: absolute; top: 0; left: 0; z-index: 17000}
+div.metal-popup-menu div.menu-container {position: relative; top: -4px; left: -7px; z-index: 5; overflow: hidden}
+div.metal-popup-menu div.menu-container div.menu-pane {position: relative; top: 0; left: 0; padding: 3px 0}
+div.metal-popup-menu .menu-joiner {position: absolute; display: block; left: -1px; top: -4px; z-index: 10; height: 1px; margin: 0; padding: 0; overflow: hidden; background: #eaeaea; border-bottom: 1px solid #eaeaea; border-left: 1px solid #d9d9d9; border-right: 1px solid #d9d9d9}
+ul.metal-menu-items {display: block; position: relative; z-index: 5; background: #eaeaea; padding: 2px}
+ul.metal-menu-items li {display: block; width: 104px; margin: 0; height: 20px; overflow: hidden}
+div.metal-popup-menu ul.metal-menu-items li {margin: 0 -4px}
+ul.metal-menu-items li a {display: block; height: 20px; padding: 0 10px 0 36px; background-repeat: no-repeat; background-position: 15px 2px; color: #333; text-decoration: none; white-space: nowrap; overflow: hidden}
+ul.metal-menu-items li a:hover {text-decoration: none; background-color: #555; color: #fff}
+ul.metal-menu-items li hr {display: block; height: 0; border: 0; margin: 10px 5px 0 5px; border-bottom: 1px solid #a8a8a8; border-top: 1px solid #dcdcdc}
+ul.metal-menu-items li span.item {display: block; height: 20px; padding: 0 10px 0 20px; text-decoration: none; color: #333}
+ul.metal-menu-items li a.view {background-image: url(../images/icons/magnifier.png); background-position: 16px 2px}
+ul.metal-menu-items li a.edit {background-image: url(../images/emb_edit.gif)}
+ul.metal-menu-items li a.private_msg {background-image: url(../images/icons/email_go.png)}
+ul.metal-menu-items li a.delete {background-image: url(../images/emb_del.gif); background-position: 17px 2px}
+ul.metal-menu-items li a.endorsement {background-image: url(../images/cxicons/endorsement-small.png); background-position: 13px 0}
+.picker {position: relative; overflow: visible; cursor: pointer}
+span.picker {padding-left: 2px}
+.picker:hover, .picker.hover {background-color: #f2f2f2}
+.picker.linkbtn:hover, .picker.linkbtn.hover {background: transparent}
+ul.menu-items {display: block; float: none; margin: 0; width: 110px; padding: 3px 0; background: #fff; z-index: 9}
+.picker ul.menu-items {position: absolute; top: 23px; left: 0; display: none; z-index: 500; overflow: visible; height: auto}
+.mainhead div h2 span.picker ul.menu-items {top: 25px}
+.picker:hover ul.menu-items, .picker.hover ul.menu-items {display: block}
+.click-picker:hover ul.menu-items {display: none}
+.clicked-picker:hover ul.menu-items {display: block}
+ul.menu-items li {display: block; float: none; margin: 0; padding: 0; height: 24px; background: #fff; overflow: hidden; z-index: 10}
+ul.menu-items li a {display: block; float: none; height: 100%; padding: 0 7px 0 27px; background-repeat: no-repeat; background-position: 6px 4px; overflow: hidden; white-space: nowrap; text-decoration: none}
+ul.menu-items li span.item {display: block; float: none; height: 100%; padding: 0 7px 0 6px; color: #333; overflow: hidden; white-space: nowrap}
+ul.text-menu-items li a {padding-left: 7px; background-position: 999px 999px}
+ul.menu-items li a:hover {text-decoration: none}
+ul.menu-items li a.view {background-image: url(../images/icons/magnifier.png)}
+ul.menu-items li a.edit {background-image: url(../images/emb_edit.gif)}
+ul.menu-items li a.add {background-image: url(../images/icons/add.png)}
+ul.menu-items li a.delete {background-image: url(../images/icons/delete.png)}
+ul.menu-items li a.embed {background-image: url(../images/icons/page_gear.png)}
+ul.menu-items li a.page-edit {background-image: url(../images/icons/page_edit.png)}
+ul.menu-items li a.layout-add {background-image: url(../images/icons/layout_add.png)}
+ul.menu-items li a.download {background-image: url(../images/icons/page_save.png)}
+ul.menu-items li a.link-add {background-image: url(../images/icons/link_add.png)}
+ul.menu-items li a.link-go {background-image: url(../images/icons/link_go.png)}
+ul.menu-items li a .cactions {padding-right: 0; margin-right: 0}
+ul.menu-items li h5 {display: block; margin: 0; padding: 0 4px; height: 100%; background: #deeffb; white-space: nowrap; overflow: hidden; color: #174485}
+h2 span.picker .decor, .picker h2 .decor {top: -5px; overflow: visible; position: relative}
+h3 span.picker .decor, .picker h3 .decor {top: -3px; overflow: visible; position: relative}
+h4 span.picker .decor, .picker h4 .decor {top: -1px; left: 1px; overflow: visible; position: relative}
+.picker:hover .decor, .picker.hover .decor {border-left: 1px solid #b8b8b8; padding-left: 2px}
+a.dropdown-picker, a.drop-downpicker:hover {text-decoration: none}
+a.dropdown-picker h4 {display: inline; margin: 0}
+.picker.linkbtn .decor, .picker.linkbtn h4 .decor {left: 3px; padding-left: 6px}
+.picker div.menu-container ul {top: 0}
+.picker div.menu-pane ul {position: static}
+div.popup-menu {position: absolute; top: 0; left: 0; z-index: 17000; overflow: hidden}
+div.popup-menu div.menu-pane {position: relative; top: 0; left: 0}
+div.popup-menu div.menu-pane ul {position: relative; top: 0; left: 0}
+a.dropdown-trigger {float: left; white-space: nowrap; overflow: hidden; padding: 1px 1px 1px 1px; margin: -2px 0; cursor: default}
+a.dropdown-trigger:hover, a.dropdown-triggered {background: #fff; color: #222; text-decoration: none; border: 1px solid #a7a6aa; padding: 0 0 0 0}
+a.dropdown-trigger span {float: left; display: block; padding: 1px 4px 1px 4px}
+a.dropdown-trigger .decor {float: left; display: block; padding: 2px 4px 0 4px}
+a.dropdown-trigger:hover .decor, a.dropdown-triggered .decor {border-left: 1px solid #b8b8b8; padding-left: 3px; color: black; background: #eaeaea}
+div.dropdown-picker {overflow: visible}
+div.dropdown-picker div.menu-container {overflow: hidden; top: -2px; left: 0}
+div.dropdown-picker div.menu-pane {overflow: auto; overflow-x: hidden; overflow-y: auto; border: 1px solid #a7a6aa}
+div.dropdown-picker ul.menu-items {padding: 0; width: 200px; overflow: hidden; border-width: 0}
+div.dropdown-picker ul.menu-items li {color: #333; height: 18px}
+div.dropdown-picker ul.menu-items li h5 {height: 18px; cursor: default}
+div.dropdown-picker ul.menu-items li a {color: #333; height: 18px; cursor: default}
+div.dropdown-picker ul.menu-items li a:hover {background: #ffd487; color: #333}
+.hover-actions a.iact {visibility: hidden}
+.hover-actions a.iact.active, .hover-actions:hover a.iact, .hover-actions.hover a.iact {visibility: visible}
+.locked-form .hover-actions:hover a.iact, .locked-form .hover-actions.hover a.iact {visibility: hidden}
+img.flip1 {background: transparent}
+a img.flip1 {display: none ! important; display: none}
+a:hover img.flip0 {display: none ! important; display: none}
+a:hover img.flip1 {display: inline ! important; display: inline}
+img.thmico, img.thmico2 {text-decoration: none; margin-right: 2px}
+img.plusico, img.plusico2, img.nlblkico {display: inline-block ! important; display: -moz-inline-stack ! important; zoom: 1; display: inline; vertical-align: text-bottom; text-decoration: none; margin-right: 2px}
+img.nlblkico {vertical-align: middle}
+img.plusico2 {margin-right: 7px}
+ul.ractions li.active img.flip0 {display: none ! important; display: none}
+ul.ractions li.active img.flip1 {display: inline ! important; display: inline}
+.meter {border: 1px #dfdfdf solid; background-color: white; width: 176px; height: 21px; margin: 3px 7px 3px 0; overflow: hidden}
+.meter span {display: block; margin: 3px; overflow: hidden; height: 15px}
+.meter span span {margin: 0; padding: 0}
+#content .prevnext {clear: both; display: block; margin: 12px 15px 0 0; height: 18px; overflow: hidden}
+#content .pages {clear: both; display: block; overflow: hidden; margin: 12px 40px 5px 0; height: 22px}
+#content .pages ul, #content .prevnext ul {float: right}
+#content .prevnext a, #content .prevnext li {float: left; padding: 0 3px}
+#content .prevnext li a {float: none; padding: 0}
+#content .pages li {margin-left: 1px; height: 21px; float: left; display: inline; overflow: hidden}
+#content .pages li a, #content .pages li span {padding: 0 6px; float: left; height: 19px; border: 1px #ccc solid; overflow: hidden}
+#content .pages li span.gap {height: 21px; border: none}
+#navmain .menu li span.sep, #content .menu .mainnav li span.sep {border-right-width: 1px; border-right-style: solid}
+.user_thumb {border: 1px solid #808080}
+div.cbox {position: relative; padding: 7px 0}
+div.cbox .crnr {position: absolute; overflow: hidden; font-style: normal; z-index: 1; width: 8px; height: 8px}
+div.cbox em.crnr b {position: absolute; font: normal 90px/24px Arial, sans-serif}
+div.cbox .ctl {top: 0; left: 0}
+div.cbox .cbl {bottom: 0; left: 0}
+div.cbox .ctr {top: 0; right: 0}
+div.cbox .cbr {bottom: 0; right: 0}
+div.cbox span.crnr {background-image: url(../images/gs2/circle8.png); background-repeat: no-repeat}
+div.cbox span.ctl {background-position: 0 0}
+div.cbox span.cbl {background-position: 0 -6px}
+div.cbox span.ctr {background-position: -6px 0}
+div.cbox span.cbr {background-position: -6px -6px}
+div.cbox em.ctl b {left: -5px}
+div.cbox em.ctr b {left: -15px}
+div.cbox em.cbl b {left: -5px; top: -10px}
+div.cbox em.cbr b {left: -15px; top: -10px}
+div.cbox div.cbox {margin: 0 7px; width: auto; z-index: 2; zoom: 1}
+div.cbox div.cbox .crnr {width: 6px; height: 6px; z-index: 2}
+div.cbox div.cbox span.crnr {background-image: url(../images/gs2/circle6-invr.png)}
+div.cbox div.cbox span.cbl {background-position: 0 -4px}
+div.cbox div.cbox span.ctr {background-position: -4px 0}
+div.cbox div.cbox span.cbr {background-position: -4px -4px}
+div.cbox div.cbox em.crnr b {font-size: 60px; line-height: 16px}
+div.cbox div.cbox em.ctl b {left: -3px}
+div.cbox div.cbox em.ctr b {left: -10px}
+div.cbox div.cbox em.cbl b {left: -3px; top: -7px}
+div.cbox div.cbox em.cbr b {left: -10px; top: -7px}
+div.cbox.graybox {background: #eaeaea}
+div.cbox.graybox span.crnr {background-color: #eaeaea}
+div.cbox.graybox div.cbox {margin: 0 7px; padding: 9px 10px; background: #fff}
+div.cbox.graybox div.cbox span.crnr {background-color: #eaeaea}
+div.cbox.graybox div.cbox.cbox-next {margin-top: 9px}
+div.cbox.graybox h3, div.cbox.graybox h4, div.cbox.graybox h5 {margin: 0 10px 5px 17px}
+div.cbox.graybox h3, div.cbox.graybox h4, div.cbox.graybox h5, div.cbox.graybox h3.gray, div.cbox.graybox h4.gray, div.cbox.graybox h5.gray, div.cbox.graybox div.cbox h3.gray, div.cbox.graybox div.cbox h4.gray, div.cbox.graybox div.cbox h5.gray {color: #555}
+div.cbox.graybox a:hover h3, div.cbox.graybox a:hover h4, div.cbox.graybox a:hover h5 {text-decoration: underline}
+div.cbox.graybox div.cbox h3, div.cbox.graybox div.cbox h4, div.cbox.graybox div.cbox h5 {margin: 0 0 3px 0}
+div.cbox.graybox div.cbox h3.dark, div.cbox.graybox div.cbox h4.dark, div.cbox.graybox div.cbox h5.dark {color: #333}
+div.cbox.graybox div.cbox table h3, div.cbox.graybox div.cbox table h4, div.cbox.graybox div.cbox table h5 {color: #333}
+div.cbox.graybox h3.brk, div.cbox.graybox h4.brk, div.cbox.graybox h5.brk, div.cbox.graybox div.cbox h3.brk, div.cbox.graybox div.cbox h4.brk, div.cbox.graybox div.cbox h5.brk {margin-bottom: 1em}
+div.cbox.graybox h3, div.cbox.graybox h4.next, div.cbox.graybox h5.next {margin-top: 5px}
+div.cbox .half-column ul.stats {display: block; margin: 12px 0 0 0; padding: 0}
+div.cbox .half-column table.stats {margin-top: 12px; padding: 0}
+div.cbox .half-column ul.stats li.item {display: block; margin: 0; padding: 0; border-bottom: 1px solid #eaeaea; clear: both; line-height: 27px}
+div.cbox .half-column ul.stats li.item.last {border-bottom-width: 0}
+#content div.cbox .half-column .stats .num {line-height: 26px; font-size: 20px; text-align: right; width: 28px; overflow: visible}
+#content div.cbox .half-column .stats .sep {width: 20px}
+#content div.cbox .half-column .stats .kind {line-height: 26px}
+#content div.cbox .half-column .stats .kind a {color: #333; display: block; line-height: 26px}
+div.cbox .half-column ul.stats li.item .num {float: left; height: 26px; vertical-align: middle; margin: 0 4px 0 0; padding: 0}
+div.cbox .half-column ul.stats li.item .aside-num {margin-left: 32px}
+#content div.cbox .half-column table.stats td {vertical-align: top; padding-top: 0}
+#content div.cbox .half-column table.stats td.num {padding-top: 0}
+#content div.cbox .half-column table.stats td.sep {vertical-align: middle; text-align: right}
+div.cbox hr {display: block; clear: both; height: 0; border: 0; border-bottom: 1px solid #eaeaea; margin: 0 0 7px 0; padding: 7px 0 0 0}
+div.cbox .left-half {position: relative; padding-right: 9px; border-right: 3px solid #eaeaea; *zoom: 1}
+div.cbox .right-half {position: relative; padding-left: 9px; border-left: 3px solid #eaeaea; *zoom: 1}
+div.cbox .left-half.nob {border-width: 0; margin-right: 3px}
+div.cbox .right-half.nob {border-width: 0; margin-left: 3px}
+div.bactions {float: left; width: 100%}
+div.bactions a {float: left; width: 47%; display: block; text-align: center; margin: 0 0 0 7px; text-decoration: none; padding: 9px 1px}
+* html div.bactions a {margin-left: 4px}
+div.bactions a:hover {background: #f1f5fe; border: 1px solid #c5dcfe; text-decoration: none; padding: 8px 0}
+div.bactions a img {display: block; margin: 0 auto}
+div.bactions a span, div.bactions a p {color: #333; display: block}
+div.bactions a h5, div.bactions a p {text-align: left; margin-left: 8px; margin-right: 8px}
+div.bactions a:hover h5, div.cbox.graybox div.bactions a:hover h5 {text-decoration: none}
+div.bactions a p {font-weight: normal}
+th .isearch, td .isearch {float: right}
+.isearch input, .isearch textarea, .isearch select, .isearch button {float: left}
+.isearch img.itip {float: left}
+.isearch label {float: left; clear: left}
+.isearch p.last {clear: both}
+.isearch button.g {display: inline; margin-left: 4px}
+.isearch input.txt {color: #777}
+.isearch:hover input.txt {border: 1px solid #82886b; color: #333}
+.isearch input.txt:focus {border: 1px solid #82886b; background: #ffffdd; color: #333}
+.left-forms {display: block; float: left; width: 100%; margin-right: -300px; margin-left: 0; padding: 0; overflow: hidden}
+.left-fields {margin-right: 300px}
+.right-forminfo {display: block; float: right; width: 300px; margin-left: 0; margin-right: 0; padding: 0; overflow: hidden}
+.right-forminfo .infobar {padding: 7px 10px; margin: 5px}
+#content .drop, #modal .drop {position: relative; overflow: visible; display: inline; z-index: 1800}
+#content .dropping, #modal .dropping {border: 3px dashed #669; background: #c1c7ef; color: #336; text-align: center; overflow: hidden; z-index: 1900}
+.emptyPlaceMarker {height: 48px; line-height: 48px}
+.emptyPlaceMarker .dropping {line-height: 40px; height: 40px; margin: 4px 0}
+#content .dragging, #content div.dragging, #content a.dragging, #content li.dragging, #modal .dragging, #modal div.dragging, #modal a.dragging, #modal li.dragging {float: none; background: #ffffff; z-index: 2000; outline: thin dotted #555; opacity: 0.9; cursor: pointer}
+#content .dragging object, #content .dragging embed {visibility: hidden}
+#content .dragparent, #content div.dragparent {z-index: 2400}
+#content .movable .handle {cursor: move}
+#content .movable .handle .cactions a {cursor: pointer}
+#content .movable .handle .cactions .itip {cursor: help}
+#content .movable .handle .cactions .move {cursor: move}
+.status .manager {font-weight: bold}
+.status .suspended {font-style: italic}
+.edit_membership .user_thumb {margin-right: 0.5em}
+input#query {padding-left: 16px; background: url(../images/icons/magnifier.png) no-repeat left center}
+img.email-bouncing {vertical-align: middle}
+.fc2 a.delete {padding-left: 20px; background: url(../images/icons/delete.png) no-repeat left center}
+.fcol {float: left; width: 33%}
+.page-alert {height: 75px}
+.page-alert .message {background: transparent url(../images/page-alert-bg.png) repeat-x top left; color:white; font-family:Arial; text-align:center; position: fixed; width: 100%; z-index: 20; height: 75px; left: 0}
+.page-alert .message h1 {font-size:25px; font-weight: bold; margin-top: 0; margin-bottom: 5px}
+.page-alert .message p {font-size: 18px}
+.page-alert .message a, .page-alert .message a:hover, .page-alert .message a:active, .page-alert .message a:visited {color: white; text-decoration: underline }
+.page-alert .message a:hover {color: yellow}
+.page-alert .message ul.actions li {display: inline; font-size: 18px; padding: 2px 5px}
+.page-alert .message .help {font-size: 12px; font-height: 18px}
+.ui-datepicker {z-index: 25}
+.custom-question {margin-bottom: 0.75em}
+.custom-question .title {font-weight: bold}
+a.simple.toggle {padding-left: 17px; background: url(../images/icons/tree_plus.gif) no-repeat center left}
+a.simple.toggle.open {background: url(../images/icons/tree_minus.gif) no-repeat center left}
+.stats-loading {padding-bottom: 16px; background: url(../images/loading-bar.gif) no-repeat bottom center}
+.stats-loading-info {font-size: 0.9em; font-style: italic}
+.resend-info {margin: 2em 0.5em}
+#subgroup_header_image_row .actions a {padding-right: 2em}
+#subgroup_icon_image_examples {height: 48px; width: 48px; overflow: hidden; float: left}
+.subgroup_icon_image_scale, .subgroup_icon_image_custom, #subgroup_splash_image_input {clear: both}
+#splash-image-preview {float: left; padding-right: 1em}
+.splash-image-preview-actions {width: 400px}
+form.opt-out p.status {font-size: 150%; margin: 1em 0}
+form.opt-out #consent-info {margin: 0 2em 1em 2em; background: #e7e7e7; border: 1px solid silver}
+form.opt-out #consent-info p {margin: 1em 1em}
+form.opt-out #consent-info div {margin: 1em 2em}
+#suspended-backdrop {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; opacity: 0.25; z-index: 25}
+#suspended-splash {position: fixed; top: 25%; left: 20%; width: 60%; height: 50%; background: white url(/images/logo-peakaboo-bg.png) bottom right no-repeat; z-index: 30; border: 3px solid #007dc2; overflow: auto}
+#suspended-splash .content {margin: 2em}
+#suspended-splash .message {font-size: 150% }
+#suspended-splash .message p {margin: 1em 0}
+#suspended-splash .message ul {margin-left: 2em; list-style: square; line-height: 1.3 }
+#suspended-splash .actions form {display: inline}
+#suspended-splash h1 {color: #0096db}
+#suspended-splash a {color: #0096db}
+.editorBody textarea {padding: 4px 6px; border: 1px solid #cccccc}
+label {color: #222}
+label.required {color: #444}
+.txt-help, .txt-limit {color: #555; padding: 1px 0 4px 2px}
+.txt-limit-reached {color: #ca2124}
+textarea.embed-code {white-space: pre-wrap; overflow-y: scroll; width: 350px; height: 120px}
+ul.checkbox-items {margin-left: 10px; overflow: hidden; width: 100%}
+ul.checkbox-items li {width: 28%; float: left; margin-right: 5%; background-color: inherit}
+ul.checkbox-items label {padding-left: 7px}
+ul.checkbox-items li.selected-checkbox {background: #e2edfe}
+.f input, input, select, textarea, .f div.txt {padding: 2px 3px; margin: 0; color: #333; border: 1px #a7a6aa solid}
+input.f, select.f, textarea.f {padding: 2px 3px; margin: 0; color: #333}
+input.virtual-default {color: #9d9d9d}
+select {padding: 1px; background: #fff}
+.f div.txt {background: #fff}
+.f select {margin: 0 2px 2px 2px}
+.fc2 select {margin-top: 2px}
+.fc2 div.readonly .txt, div.readonly .fc2 .txt {margin-top: 2px}
+.wrapper, .wrapper2, .wrapper3 {border: 2px solid #e2e9da; background: #e2e9da}
+.wrapper select, .wrapper2 select, .wrapper3 select {margin: 0}
+input.nob, .f input.nob, input.f.nob, select.nob, textarea.nob, ul.checkbox-items input {border-width: 0; padding: 0}
+input.nob[type=checkbox], .f input.nob[type=checkbox], ul.checkbox-items input[type=checkbox] {border: 1px solid #777; padding: 2px}
+.fp {clear: both}
+.fr, .fr3 {clear: both; padding: 2px 0}
+.fr2 {clear: both; padding: 10px 0}
+.fr4 {clear: both; padding: 10px 0 0 0}
+.fc1 {float: left; width: 130px; text-align: right; margin: 6px 5px 2px 0}
+.fc2, .fc3, .fc4 {float: left; margin: 2px 5px 2px 0; text-align: left}
+.fc3 {width: 240px}
+.fc4 {width: 260px; margin-left: 7px; color: #555}
+.fc3 .wrapper {float: left}
+.ft, .ft2, .ft3, .ft4 {clear: both; margin: 0 0 5px 135px; color: #555}
+.ft, .ft2 {color: #555}
+.ft3 {margin-top: 2px}
+.ft4 {margin-bottom: 0}
+.frchk, .frchk2 {clear: both; padding: 10px 0 0 21px}
+.frchk .fc1, .frchk2 .fc1 {margin-top: 2px; clear: left}
+.frchk .fc1 input, .frchk2 .fc1 input {border: none}
+.frchk .ft3, .frchk2 .ft3 {clear: none}
+.frchk2 {padding-left: 8px}
+.frchk2 .fc1 {width: 19px}
+.frchk2 .ft3 {margin-left: 24px}
+.f-smart .text:hover, .f-smart .txt:hover {border: 1px solid #82886b}
+.f-smart .text:focus, .f-smart .txt:focus {border: 1px solid #82886b; background: #ffffdd}
+.locked-form {opacity: 0.5}
+.locked-form .locked-form {opacity: 1}
+.locked-form input, .locked-form a:hover {cursor: default}
+.ft2 img.itip {vertical-align: middle}
+.fc2 img.date {vertical-align: bottom}
+.d img.itip {vertical-align: text-top; position: relative; top: -1px}
+.d label {display: block; padding-top: 10px; clear: left}
+.d h3, .d h4, .d h5, .d h6 {margin-top: 0; padding-top: 10px}
+.d .submit-row {clear: both; display: block; padding-top: 15px}
+.d .field-row {clear: both; display: block; padding-top: 10px}
+.d .field-row label {display: inline; padding-top: 0}
+.d .wrapper {float: left}
+.nfr, .nfr2 {clear: both}
+.nfc1 {clear: left; float: left; width: 320px; margin-right: 8px}
+.nfc2 {float: left; width: 368px}
+.nfc2 p {margin-bottom: 1em}
+.nfc2 p.last {margin-bottom: 0}
+.nfr h6 {margin: 0}
+.nfr h6.brk {margin-bottom: 1em}
+.nfc1, .nfc2 {padding: 0}
+.nfc2, .nfc1-flush {padding-top: 4px}
+.nfr2 .nfc1, .nfr2 .nfc2 {margin-top: 12px}
+.nfr3 .nfc1, .nfr3 .nfc2 {margin-top: 7px}
+.nf-lined {border-top: 2px solid #eaeaea; padding-top: 4px}
+.aside-nf-lined {border-top: 2px solid white; padding-top: 8px}
+.nfr .aside-h6 {margin-top: 18px}
+.nfr2 .aside-h6 {margin-top: 30px}
+.nfr3 .aside-h6 {margin-top: 25px}
+.nfc1 label {display: block}
+hr.nf-lined {display: block; clear: both; height: 0; border: 0; border-bottom: 2px solid #eaeaea; margin: 0; padding: 10px 0 0 0}
+.nf-submit-row {margin-left: 0; clear: both}
+.nfc1 div.iconbox {display: block; clear: both; float: left; margin: 0; padding: 0 10px 8px 0; width: 64px; text-align: center}
+.nfc1 div.iconbox img {margin: 0 auto}
+.nfc1 div.itembox {display: block; float: right; width: 246px; margin: 0; padding-bottom: 8px}
+.nfc1 div.itembox label {padding: 3px 0; width: 192px}
+.nf-submit-row2 {margin-left: 72px; clear: both}
+.nfc1 .wrapper {float: left}
+div.editorPane, div.editorWrap {display: block; margin : 0; padding: 0; text-align: left}
+span.editorBody {display: block; clear: both; margin-bottom: 0 0 1em 0; padding: 5px; background: #FFFFFF; border: 1px solid #778; text-align: left}
+span.editorBody textarea {color: #333}
+ul.editorTabs {margin: 1px 0 -1px 0; clear: both; overflow: hidden; height: 21px}
+ul.editorTabs li {float: left; display: block; margin: 0}
+ul.editorTabs li a {float: left; margin: 0 3px 0 0; padding: 3px 7px; border: 1px solid #778; height: 13px; background: white url(../images/shade.gif) repeat-x scroll left top; font: bold 11px/13px Verdana, Arial, Helvetica, sans-serif; text-align: left; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; text-decoration: none; color: #555}
+ul.editorTabs li a:hover {color: #333; text-decoration: none}
+ul.editorTabs li.selected a {color: #333; background-image: url(../images/shadeactive.gif); border-bottom-color: white}
+.fieldWithErrors {border-left: 6px solid #900; padding-left: 2px; background: #EEE}
+.fieldWithErrors+label {margin-top: 0}
+div.fieldWithErrors input, div.fieldWithErrors input.txt, div.fieldWithErrors select {background: #fdd}
+div.fieldWithErrors input:focus, div.fieldWithErrors input.txt:focus, div.fieldWithErrors select:focus {background: #fff}
+.rowWithErrors {clear: both; float: left; background: #fdd; width: 100%}
+.rowWithErrors div.fieldWithErrors input, .rowWithErrors div.fieldWithErrors input.txt, .rowWithErrors div.fieldWithErrors select {background: #ffd}
+.rowWithErrors .ft, .rowWithErrors .ft2, .rowWithErrors .fc4 {color: #333}
+#errorExplanation, .errorExplanation {position: relative; top: 10px; margin: 10px 0 30px 0; background: #FCC; font-size: 12px; text-align: left}
+#errorExplanation h2, .errorExplanation h2 {margin-top: 0; padding: 5px 5px 5px 35px; text-align: left; font-weight: bold; font-size: 12px; color: #fff; background: #C66 url(../images/alert.gif) no-repeat 10px 50%; border-top: 3px solid #900; border-bottom: 3px solid #900}
+#errorExplanation p, .errorExplanation p {margin-bottom: 0; padding: 10px 15px; text-align: left; color: #333; font-size: 12px; font-weight: bold}
+#errorExplanation ul, .errorExplanation ul {margin-left: 30px; padding: 0 0 20px; font-size: 12px; text-align: left}
+#errorExplanation ul li, .errorExplanation ul li {font-size: 12px; list-style: square; color: #333; text-align: left; margin-top: 5px}
+#errorExplanation a, .errorExplanation a {color: #000; text-decoration: underline}
+#errorExplanation h2 a, .errorExplanation h2 a{ color: #FFC}
+#content .blue-form, #content div.dragging.blue-form {background: #f1f5fe; border: 1px solid #c5dcfe; position: relative}
+#content .blue-form h4, #content .cell .blue-form h4 {margin: 5px; color: #333}
+#content .blue-form .blue-form-handle {display: block; height: 23px; overflow: hidden}
+#content .blue-form .blue-form-handle span.cactions a.move {background-image: url(../images/gs2/move-gray.gif)}
+#content .movable .blue-form .blue-form-handle {background: #e9edfa; border: 1px solid #c5dcfe; border-bottom-color: #e1e5fa; border-top-width: 0; padding: 0 1px; margin: 0 -1px}
+#content .movable .blue-form .blue-form-handle:hover {background: #dee2ee; border-color: #b9bdee; border-left-color: #c5dcfe}
+#content .blue-form .blue-form-tabs {display: block; background: #d8edfe; border-bottom: 1px solid #d5e5fe; height: 24px; overflow: visible; padding: 4px 5px 0 5px}
+#content .blue-form .blue-form-tab {display: inline; float: left; line-height: 22px; height: 22px; overflow: hidden; margin-bottom: -1px; padding: 2px 7px 1px 7px; color: #333}
+#content .blue-form .blue-form-loading {display: block; margin: 0 5px -1px 5px; text-align: center; overflow: hidden; line-height: 22px; height: 22px; padding: 2px 0 1px 0; background: url(../images/gs2/progress-bar.gif) no-repeat center center}
+#content .blue-form .blue-form-tabs .blue-form-tab.active {background: #f1f5fe; border: 1px solid #c5d5fe; border-bottom-width: 0; padding: 1px 6px; color: #000}
+#content .blue-form .blue-form-submit-row {text-align: right; clear: both; margin-left: auto; padding: 10px 10px 5px 5px}
+#content .blue-form .blue-form-linkbtn-row {float: right; clear: both; padding: 0; margin: 10px 10px 5px 5px}
+#content .blue-form .blue-form-linkbtn-row .upsell {float:left; width: 100px; line-height: 1; text-align: center}
+#content .blue-form #errorExplanation {top: 0; margin: 5px 0 10px 0}
+#content .blue-form #errorExplanation h2 {margin: 0; padding-left: 30px; background-position: 5px 50%}
+#content .blue-form #errorExplanation p {margin: 0; padding: 5px 10px}
+#content .blue-form #errorExplanation ul {margin-left: 25px; padding-bottom: 10px}
+#content .blue-form #errorExplanation ul li {margin-top: 0}
+#content .blue-form .fieldWithErrors {border-left-width: 0; padding-left: 0}
+.form-section h4 {clear: left; margin: 0 32px 0 90px; padding-top: 1em; color: #555}
+.form-section h5 {clear: left; padding-top: 0.75em; margin-left: 90px}
+.form-section .feature {clear: left}
+.form-section .feature.disabled {opacity: 0.5}
+.form-section .upsell {margin: 25px 0 0 5px; padding: 7px; clear: left}
+.form-section h4 {margin: 0; padding: 0; border: none}
+.form-section .feature.disabled .upsell p {margin-left: 16px}
+fieldset.disabled {opacity: 0.5 }
+#post_category_ids_row {width: 100%}
+#post_category_ids_row .fc2 {width: 100%}
+#post_category_ids_row .controls {padding: 5px 10px}
+.fr.upsell div {margin: 10px 5em 0 5em; padding: 3px 6px; border: 1px solid silver; background: whiteSmoke}
+.xmain .addmod {float: right; margin-top: 15px; width: 175px; overflow: hidden}
+.addmod .module a {float: left; display: inline; overflow: hidden}
+.addmod span, .addmod a {color: #545454}
+.rowby1 {min-height: 255px}
+.rowby2 {min-height: 425px}
+.rowby3 {min-height: 695px}
+.rowby1 .ie_minheight {height: 255px}
+.rowby2 .ie_minheight {height: 425px}
+.rowby3 .ie_minheight {height: 695px}
+#content .modules.movable {position: relative; overflow: hidden}
+#content .modulehead {height: 23px; overflow: hidden}
+#content .modulehead h4 {margin: 0 0 0 5px; padding: 0; float: left; display: inline; overflow: hidden; white-space: nowrap; height: 23px}
+#content .editmod h4 {margin-left: 5px}
+#content .editmod .checkbox-row {padding: 8px 0 0 32px; clear: both}
+#content .editmod .checkbox-row .fieldWithErrors, #content .editmod .fc2.compound .fieldWithErrors {display: inline}
+#content .wcolumn .editmod .checkbox-row {padding-left: 132px; clear: both}
+#content .wcolumn .mainnav li.bare {max-width: 160px; white-space: nowrap; overflow: hidden; padding-right: 0; margin-right: 12px}
+#content .ncolumn .modulehead h4 {width: 225px}
+#content .ncolumn .modulehead.with-feed h4 {width: 208px}
+#content .ncolumn .modulehead h4.tight {width: 168px}
+#content .wcolumn .modulehead h4 {width: 540px}
+#content .wcolumn .modulehead.with-feed h4 {width: 523px}
+#content .modulehead img.itip {position: relative; top: 3px}
+#content .modules .wcolumn .cell {padding-bottom: 10px}
+#content .modules .ncolumn .cell.sidebar-cell {padding-top: 5px; padding-bottom: 5px}
+#content .modules .cell h5 {margin: 8px 0; padding: 0}
+#content .modulehead label {padding: 0 5px 0 10px}
+#content .modulehead .f select {padding: 0; position: relative; top: 2px; margin-right: 20px}
+#content .modulehead .f button.g {position: relative; top: -5px}
+#content .editmod .hint, #modal_dialog_message .hint {font-style: italic}
+#content .handle .rss {float: left; display: inline; text-indent: -9999px; width: 14px; height: 16px; background: url(../images/gs2/rss-icon.gif) no-repeat 2px 2px; overflow: hidden}
+#content .modulehead .rss {margin: 3px 0 3px 3px}
+#content .menu .rss {margin: 6px 0 0 0; position: relative; left: 5px; z-index: 20}
+#content .modules .handle .cactions {position: relative}
+#content .modules .handle .cactions a.iact, #content .modules .handle .cactions a.move, #content .modules .handle .cactions a.edit {position: relative; left: 9999px}
+#content .modules.movable .handle .cactions a.iact, #content .modules.movable .handle .cactions a.move, #content .modules.movable .handle .cactions a.edit {left: 0}
+#content .modules.movable .handle .cactions img.itip {visibility: visible}
+#content .modules .dragging .handle a {visibility: hidden}
+#content .modules .handle a.dropdown-trigger {padding: 1px 0 1px 3px; height: 16px; margin: 1px 0 5px 0}
+#content .modules .handle a.dropdown-trigger b.decor {height: 17px; padding: 1px 3px 0 3px; margin-right: 0; margin-left: 0}
+#content .modules .handle a.dropdown-trigger:hover, #content .modules .handle a.dropdown-triggered {padding: 0 0 0 2px}
+#content .modules .handle a.dropdown-trigger:hover b.decor, #content .modules .handle a.dropdown-triggered b.decor {padding: 1px 2px 0 2px}
+#content .modules .handle a.dropdown-triggered {z-index: 10; text-decoration: none}
+#content .modules .handle .cactions a.dropdown-trigger {top: 0; margin-top: 3px; height: 15px}
+.modules ul.blocklist {margin-top: 3px; border-bottom: none}
+.modules ul.blocklist li.item {padding-bottom: 5px}
+.modules ul.blocklist li.item .icon {margin-top: 7px}
+.modules ul.blocklist li.item .info {padding-top: 5px}
+.modules ul.blocklist li.item .itemhead, .modules ul.blocklist li.item .last {margin-top: 7px}
+div.content_body_editor {clear: both; padding-top: 10px}
+#content .ncolumn div.content_body_editor {width: 300px}
+#content .wcolumn .content_body_editor, #modal_dialog_message .content_body_editor {margin-left: 15px; width: 585px}
+#content .blue-form.editmod {border-top-width: 0}
+#content .loading .blue-form.editmod {border-bottom-width: 0}
+#content .blue-form.editmod .blue-form-loading {margin-left: 90px}
+#content_select.select {width: 200px}
+#content .ncolumn .editmod input.txt {width: 195px}
+#content .ncolumn .editmod textarea {width: 195px; height: 3.2em}
+#content .ncolumn .editmod .fc1 {width: 85px}
+#content .ncolumn .editmod .colorpicker-input {width: auto; margin-top: 3px}
+#content .ncolumn .editmod .colorpicker-input label {width: 85px; text-align: right; margin-right: 5px}
+#content .ncolumn .editmod .ft2, #content .ncolumn .editmod .ft {margin-left: 90px}
+#content .ncolumn .editmod ul.checkbox-items {width: 200px; height: 50px}
+#content .ncolumn .editmod ul.checkbox-items li {float: none; width: 100%; margin: 0}
+#content .ncolumn .editmod ul.checkbox-items li.selected-checkbox {background: #e2feed}
+.editmod ul.checkbox-items {overflow: auto}
+#content .wcolumn .editmod select {max-width: 285px}
+#content .wcolumn .editmod input.txt {width: 280px}
+#content .wcolumn .editmod .fc1 {width: 175px}
+#content .wcolumn .editmod .colorpicker-input {width: auto; margin-top: 3px}
+#content .wcolumn .editmod .colorpicker-input label {width: 175px; text-align: right; margin-right: 5px}
+#content .wcolumn .editmod .ft2, #content .wcolumn .editmod .ft {margin-left: 180px}
+#content_width, .WxH-width, #content_height, .WxH-height {float: left; width: 32px; text-align: center}
+div#content_width, div.WxH-width {background: #eaeaea}
+#content_WxH, .WxH-x {float: left; padding: 0 8px}
+.WxH-lock {float: left; width: 18px; height: 18px; text-indent: -9999px; overflow: hidden; text-decoration: none; background: url(../images/icons/lock.png) no-repeat center center; margin-left: 5px}
+.WxH-lock:hover {text-decoration: none}
+.WxH-lock-open {background-image: url(../images/icons/lock_open.png)}
+.WxH-reset {float: left; width: 18px; height: 18px; text-indent: -9999px; overflow: hidden; text-decoration: none; background: url(../images/icons/lightning.png) no-repeat center center; margin-left: 5px}
+#content .modulehead.inv h4, #content .modulehead.inv label {color: #333}
+#content .cell h4.preview {background: #eaeaea; color: #333; margin: 5px 0 0 0; padding: 0 5px; height: 23px; overflow: hidden}
+#content .modulehead.inv {background: #ffffff}
+#content .modules.movable .modulehead.inv:hover {background: #f1f5fe}
+#content .intro {margin: 8px 0 0 13px; overflow: hidden; color: #333; padding: 0}
+#content .intro_summary .intro {margin: 8px 20px 20px 13px; overflow: hidden; color: #333}
+#content .intro_summary .intro h2.default {margin: 0.3em 0 0.5em 0; color: #333}
+#content .intro_summary .intro p.default {margin: 0.5em 0 0.5em 0; color: #333}
+#content .no-margins .intro, #content .intro_summary.no-margins .intro {margin: 0}
+#content #wide .intro, #content #wide .introedit {width: 700px}
+#content .modules .embed-widget .align-center {text-align: center; margin-left: auto; margin-right: auto}
+#content .modules .consist {padding-bottom: 21px}
+#content .modules .consist ul.list li strong {color: #000}
+#content .modules .consist ul.list {margin-top: 5px; width: 310px; height: 163px; overflow: hidden}
+#content .modules .consist ul.list li {float: left; width: 103px; height: 163px; background: url(../images/gs2/dot.gif) repeat-y; text-align: center; overflow: hidden}
+#content .modules .consist ul.list li.first {background:none}
+#content .modules .consist ul.list li img, #content .modules .consist ul.list li strong, #content .modules .consist ul.list li span, #content .modules .consist ul.list li a {display: block; margin: 0 auto; overflow: hidden}
+#content .modules .consist ul.list li img {margin-top: 5px}
+#content .modules .consist ul.list li strong {width: 100px; text-align: center}
+#content .modules .consist ul.list li span {width: 75px; text-align: center}
+#content .modules .consist ul.list li a {width: 75px; text-align: center}
+#content .modules .news .newslinks, #content .modules .links .sharlinks {margin: 5px 0 0 5px; display: block; overflow: hidden; list-style: none}
+#content .modules .links .sharlinks li.item {background-image: url(../images/icons/link.png)}
+#content .modules .news .newslinks li.item {background-image: url(../images/cxicons/16/rss-bullet.png)}
+#content .modules .news p.ownerline {height: 18px; line-height: 18px; overflow: hidden; white-space: nowrap}
+#content .modules .news .newslinks li .cactions, #content .modules .links .sharlinks li .cactions, #content .modules .news .newslinks li .cactions a.iact, #content .modules .links .sharlinks li .cactions a.iact {height: 16px; line-height: 16px; margin: 0; padding: 0}
+div.popup-menu.xlinks-actions ul.menu-items {width: 145px}
+div.popup-menu.module-actions ul.menu-items {width: 145px}
+div.popup-menu.module-actions.sidebar-actions ul.menu-items {width: 178px}
+#content .modules .links .bottom {width: 310px; margin-top: 15px; overflow: hidden}
+#content .modules .links .bottom .add {margin-left: 8px; float: left; display: inline; overflow: hidden}
+#content .modules .discussions ul.list {margin: 5px 0 0 5px; padding: 0; overflow: hidden; list-style: none}
+#content .modules .discussions ul.list li {background: url(../images/icons/comment.png) no-repeat 1px 0}
+#content .modules .discussions div.featured {margin: 10px 5px}
+#content .modules .discussions div.featured h4 {margin: 0 0 8px 0; padding: 0}
+#content .modules .discussions div.featured .user_thumb {margin: 5px 10px 0 0}
+#content .modules .discussions div.featured p.topic {color: #555}
+#content .modules .discussions p.readmore {clear: both; margin-top: 10px}
+#content .modules .discussions div.featured .prevnext {padding-top: 10px}
+#content .modules .discussions p.instructions {font-size: 11px}
+.blog-intro-image {display: block; float: left; padding: 0 10px 10px 10px}
+.blog-links {height: 1.3em}
+.blog-links .left-link {float: left}
+.blog-links .right-link {float: right; padding-right: 5px}
+.blog-links .right-link, .left-link {font-weight: bold}
+#content .modules .blog {margin: 0; padding: 0 0 1px 0}
+#content .modules .blog h3 {margin: 8px 0 0 0; padding: 0}
+#content .modules .blog ul.blocklist, #content .modules .blog div.featured {margin: 0 10px; width: auto; padding: 0}
+#content .modules .ncolumn .blog ul.blocklist {margin: 0 0 0 4px}
+#content .modules .blog ul.blocklist li.item {margin-top: 0; padding-top: 0}
+#content .modules .blog .more-entries {width: 100%; height: 1.5em}
+#content .modules .blog .more-entries a.more {float: right; margin: 5px 5px 0 0}
+#content .modules .subgroups-narrow-filter a.dropdown-trigger span {width: 42px; overflow: hidden; white-space: nowrap}
+#content .modules .subgroups .featured {margin: 7px 5px 4px 10px}
+#content .modules .wcolumn .subgroups h6 {margin: 0; padding: 0}
+#content .modules .wcolumn .subgroups a.image {float: left; width: 150px; height: 150px; margin: 0 20px 0 0}
+#content .modules .subgroups p.description {padding-top: 7px}
+#content .modules .wcolumn .subgroups p.ownerline {color: #555; font-size: 11px}
+#content .modules .subgroups a.view-subgroup-home {display: block; padding-top: 10px; text-align: right; margin-right: 10px}
+#content .modules .wcolumn .subgroups a.view-subgroup-home {text-align: left}
+#content .modules .subgroups p.info {font-size: 11px; color: #444}
+#content .modules .ncolumn .subgroups .featured a.image {float: left; width: 80px; height: 80px; margin: 0 8px 0 0}
+#content .modules .members ul.facelist {margin: 10px auto 0 auto; padding: 0; overflow: hidden; width: 242px}
+#content .modules .members ul.facelist li {margin: 0; padding: 0; float: left; width: 60px}
+#content .modules .members ul.facelist.colby3 li {margin: 0; padding: 0; float: left; width: 80px}
+#content .modules .members ul.facelist li.top {border-top: 1px solid #808080}
+#content .modules .members ul.facelist li.bottom {border-bottom: 1px solid #808080}
+#content .modules .members ul.facelist li.first {clear: left; border-left: 1px solid #808080}
+#content .modules .members ul.facelist li.last {border-right: 1px solid #808080}
+#content .modules .members ul.facelist .user_thumb {border: none}
+#content .modules .members div.featured {margin: 7px 10px 5px 10px}
+#content .modules .members div.featured .user_thumb {margin: 5px 10px 0 0}
+#content .modules .members div.featured h4 {margin: 0}
+#content .modules .members div.featured p {margin: 0}
+#content .modules .members div.featured p.bio {clear: both; margin: 0; padding: 5px 0; color: #555}
+#content .modules .galleries ul.list {margin: 10px auto 0 auto; padding: 0; overflow: hidden; width: 300px}
+#content .modules .galleries ul.list li {margin: 0; padding: 0; float: left}
+#content .modules .galleries ul.list li a {width: 75px; height: 75px; float: left}
+#content .modules .freeform .freeform-content {padding: 0; margin: 0}
+#content .modules .freeform.with-margins .freeform-content {padding: 10px}
+#content .modules .audits-narrow-filter a.dropdown-trigger span {width: 27px; overflow: hidden; white-space: nowrap}
+#content .modules #audits .menu {height: 48px}
+#content .modules #audits .menu .mainnav li {text-transform: uppercase}
+#content #audits .auditslist {margin: 8px 0 0 8px; overflow: hidden}
+#content #audits .auditslist li.item {float: left; width: 600px; padding: 3px 0 12px 5px; background: url(../images/gs2/dot.gif) repeat-x 0 100%; overflow: hidden}
+#content #audits .auditslist li.item .user_thumb {margin-top: 5px}
+#content #audits .auditslist li.item .info {margin: 4px 0 0 7px; width: 390px; float: left; display: inline; overflow: hidden}
+#content #audits .auditslist li .info .top {width: 100%; overflow: hidden}
+#content #audits .auditslist li p {width: 100%}
+#content #audits .auditslist li .info .top img {float: left; overflow: hidden}
+#content #audits .auditslist li .info .top div.brief {float: right; width: 348px; overflow: hidden; margin-top: 1px}
+#content #audits .auditslist li .info .description {color: #333; margin-top: 2px}
+#content #audits .auditslist li .funct {margin: 0; width: 126px; float: right; display: inline; overflow: hidden}
+#content #audits .auditslist li .funct li {float: left; width: 126px; height: 22px; margin-top: 5px; padding: 0; background: url(../images/gs2/funct-arrow.gif) no-repeat center left; overflow: hidden}
+#content #audits .auditslist li .funct li a {display: block; width: 113px; height: 20px; margin: 0 0 0 11px; border: 1px #a8a8a8 solid; white-space: nowrap; text-align: center; overflow: hidden}
+#content #audits .auditslist li .funct li a:hover {text-decoration: none}
+#content #audits .auditslist li .funct li.last {background: none}
+#content #audits .auditslist li .funct li.last a {border-color: #ccc}
+#content .auditsdigest {padding: 0 8px 15px 8px}
+#content .auditsdigest h5 {margin: 12px 0 8px 0}
+#content .auditsdigest ul.blocklist {padding-top: 0; margin-top: 0}
+#content .auditsdigest ul.blocklist li.item {width: 50%; float: left; clear: none}
+#content .auditsdigest ul.blocklist li.item div.details p.detail.info {padding: 14px 10px 0 0}
+#content #audits h5.last_notified {margin: 12px 0 0 8px}
+.xsidebar h3, .xsidebar h4 {margin: 1px 0 10px 0; padding: 0; overflow: hidden}
+.xsidebar .usermod, .xsidebar .sidemod {margin-bottom: 5px; overflow: hidden; clear: both}
+.xsidebar .sidemod {padding: 9px 10px 5px 10px}
+.xsidebar .sidemod.w {padding: 9px 0 5px 0}
+#wsidebar .usermod {width: 310px}
+.xsidebar .text, .xsidebar select {display: inline; border: 1px solid #a7a6aa; color: #333}
+.xsidebar .text {height: 15px; padding: 1px 4px}
+.xsidebar select {padding: 1px 2px}
+.xsidebar button {float: left; display: inline; margin-left: 4px}
+.xsidebar .linkbar, .infobar {border: 1px solid #fcdf6b; background-color: #fcf7e3}
+.xsidebar .linkbar {display: block}
+.xsidebar .helpbar {display: block; background: #f1f5fe; border: 1px solid #c5dcfe}
+.xsidebar .linkbar, .xsidebar .linkbar:hover, .xsidebar a.helpbar {color: #333; text-decoration: none}
+.xsidebar .linkbar:hover {background-color: #fffcf4; border-color: #ffefbb}
+.xsidebar a.helpbar:hover {background-color: #e3e9f6; border: 1px solid #b5ccee}
+#wsidebar .addmod {margin-bottom: 5px; width: 308px; border: 1px solid #cecece; overflow: hidden}
+#wsidebar .addmod span {margin: 5px 10px 0 10px; float: left; padding-bottom: 6px; display: inline; overflow: hidden}
+#wsidebar .addmod a.learnmore:hover, #wsidebar .addmod a.learnmore u {text-decoration: none}
+#wsidebar .addmod a.learnmore:hover u {text-decoration: underline}
+#wsidebar .addmod a.learnmore b {padding: 0 1px; position: relative; top: 1px}
+#wsidebar .browse-prevnext {background: #eaeaea; padding-bottom: 10px}
+#wsidebar .browse-prevnext a.view {float: right; margin-top: 4px; text-decoration: underline}
+#wsidebar .browse-prevnext a.view:hover {text-decoration: none}
+#wsidebar .browse-prevnext div a:hover, #wsidebar .browse-prevnext div a {text-decoration: none; background: #fff; cursor: pointer}
+#wsidebar .browse-prevnext div.prev a, #wsidebar .browse-prevnext div.next a {margin: 0; height: 115px}
+#wsidebar .browse-prevnext div.prev a {float: left}
+#wsidebar .browse-prevnext div.next a {float: right}
+#wsidebar .browse-prevnext div.prev, #wsidebar .browse-prevnext div.next {width: 145px; overflow: hidden; margin: 0}
+#wsidebar .browse-prevnext div.prev {clear: left; float: left}
+#wsidebar .browse-prevnext div.next {clear: right; float: right}
+#wsidebar .browse-prevnext div a.vcr {color: #555; border: 1px solid #d4d4d4; width: 23px; height: 113px; overflow: hidden}
+#wsidebar .browse-prevnext div.prev a.vcr {margin: 0 10px 0 3px}
+#wsidebar .browse-prevnext div.next a.vcr {margin: 0 3px 0 10px}
+#wsidebar .browse-prevnext div a.vcr span {display: block; background: #d4d4d4; border: 1px solid #eaeaea; text-align: center; height: 111px; overflow: hidden}
+#wsidebar .browse-prevnext div a span.thumb {display: block; overflow: hidden; background: #fff; height: 113px; width: 93px; padding: 1px 0 0 1px; border-right: 1px solid #afafaf; border-bottom: 1px solid #afafaf}
+#wsidebar .browse-prevnext div a span.thumb span {display: block; overflow: hidden; background: #fff; height: 95px; width: 75px; padding: 9px 8px 8px 9px; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea}
+#wsidebar .browse-prevnext div a span.thumb span span {height: 75px; padding: 0; margin: 0; border: none}
+#wsidebar .browse-prevnext div a span.thumb img {display: block; height: 75px; width: 75px; background: transparent}
+#wsidebar .browse-prevnext div a.vcr, #wsidebar .browse-prevnext div a.vcr span, #wsidebar .browse-prevnext div a span.thumb, #wsidebar .browse-prevnext div a span.thumb span {-moz-border-radius: 1px 4px 4px 1px; -webkit-border-radius: 2px; border-radius: 1px}
+.xsidebar .advert {margin-top: 12px; padding: 0; border: 1px #cecece solid; overflow: visible}
+.xsidebar .advert h6 {margin: 0 auto; width: 80px; text-align: center; overflow: hidden; background: #fff; color: #cecece; position: relative; top: -8px}
+.xsidebar .advert .advert-content {padding: 2px 5px 10px 5px; width: 100%; overflow: hidden}
+#wsidebar .advert .advert-content {width: 300px; height: 250px}
+#nsidebar .advert .advert-content {width: 160px; height: 600px}
+#searchbar {padding-left: 15px}
+#searchbar .text, #searchbar select {float: left}
+#searchbar .text {width: 123px; padding: 2px 3px 2px 4px}
+#searchbar a.adv {text-decoration: underline}
+#searchbar a.adv:hover {text-decoration: underline}
+#searchbar a.tags {float: left; display: inline; margin-top: 3px; width: 51px; height: 17px; border: none; text-indent: -9999px; background: url(../images/gs2/tags-button.gif) no-repeat; overflow: hidden}
+#wsidebar #searchbar select {margin: 0 2px 0 5px; width: 105px}
+#wsidebar #searchbar a.tags {clear: both; margin-left: 5px}
+#wsidebar #searchbar a.adv {margin: 5px 39px 0 0; float: right; display: inline; border: none; overflow: hidden}
+#nsidebar #searchbar ul {display: block}
+#nsidebar #searchbar ul li {padding-top: 4px; clear: left; display: block}
+#nsidebar #searchbar select {width: 133px}
+#nsidebar #searchbar a.adv {float: right; margin-right: 14px}
+#profilemeter {border: 1px #cecece solid; overflow: hidden; padding-right: 5px}
+#profilemeter.collapsed {height: 105px}
+#profilemeter .meter {float: left}
+#profilemeter .snapshot {width: 295px; overflow: hidden}
+#profilemeter .snapshot ul {margin: 0; padding: 0 0 0 10px; width: 220px; display: block; overflow: hidden}
+#profilemeter .snapshot ul li {display: block; padding: 0; margin: 0; overflow: hidden; color: #000}
+#profilemeter .snapshot ul li div.meter {float: left}
+#profilemeter .snapshot ul li p.percent {float: right}
+#profilemeter .addlinks {margin: 4px 0 0 0; clear: both; padding: 7px 0 0 0; width: 295px; background: url(../images/gs2/dot.gif) repeat-x; overflow: hidden}
+#profilemeter .addlinks li {padding-left: 70px; width: 220px; float: left}
+#profilemeter .addlinks li a {color: #000}
+#profilemeter .addlinks li span {float: right; width: 50px; text-align: right; overflow: hidden}
+#loginbar {background: #eaeaea; padding: 9px 20px}
+#loginbar iframe {height: 70px; width: 270px; overflow: hidden}
+#joinbar h3, #joinbar a, #loginbar a, #xloginframe a {text-decoration: underline; font-weight: normal}
+#loginbar label.text-label {color: #555555; padding: 0 5px; text-align: right; width: 80px; float: left; clear: left; line-height: 20px; display: block}
+#loginbar .field {padding-bottom: 3px}
+#loginbar button {float: none }
+#loginbar input.check_box {border: none }
+#loginbar ul, #xloginframe ul {float: left; display: block; margin: 0; padding: 0; width: 100%}
+#loginbar ul li, #xloginframe ul li {float: left; clear: left; margin-top: 3px; height: 21px; overflow: hidden; width: 100%}
+#loginbar .text, #xloginframe .text {width: 170px}
+#loginbar .text:hover, #loginForm .txt:hover, #xloginframe .text:hover {border: 1px solid #82886b}
+#loginbar .text:focus, #loginForm .txt:focus, #xloginframe .text:focus {border: 1px solid #82886b; background: #ffffdd}
+#loginbar ul li a, #xloginframe ul li a {margin: 0 0 0 3px; float: left; line-height: 21px; overflow: hidden; white-space: nowrap}
+#joinbar {padding-left: 70px; background-image: url(../images/cxicons/48/PendingMembers.png); background-repeat: no-repeat; background-position: 5px center}
+.xsidebar #go_premium {line-height: 1.25em}
+.xsidebar #go_premium h4 {height: 48px; line-height: 48px; margin: 5px 0 15px 0; padding: 0 0 0 64px; background: url(../images/cxicons/48/PremiumBundle.png) no-repeat 0 center}
+.xsidebar #go_premium ul, .xsidebar #is_enterprise ul {margin: 10px; padding: 0; list-style-type: square; list-style-position: inside}
+.xsidebar #go_enterprise, .xsidebar #is_enterprise {background-image: url(../images/gs2/groupsites-pro.png); background-repeat: no-repeat; background-position: 10px 12px; padding-top: 92px; padding-bottom: 16px; line-height: 1.25em}
+.xsidebar #go_enterprise p, .xsidebar #is_enterprise p {margin-top: 15px}
+.xsidebar #getting_started {line-height: 1.25em}
+.xsidebar #getting_started ul {display: block; margin: 10px}
+.xsidebar #getting_started ul li {display: block}
+.xsidebar #join_champions {line-height: 1.25em; border: 1px solid #e7e7e7}
+.xsidebar #join_champions p {margin-bottom: 15px; color: #555}
+.xsidebar #join_champions h6 {height: 48px; margin: 5px 0 0 0; padding: 50px 0 10px 0px; background: url(../images/champions-logo.png) no-repeat center top}
+.xsidebar #export-data.sidemod, .xsidebar #manager-tour.sidemod {border: 1px solid #e7e7e7}
+.xsidebar #manager-tour.sidemod ul {padding: 0.5em 2em; list-style: circle}
+body {color: #333}
+h3, h4 {color: #000}
+.greybg {background: #eaeaea}
+.user_thumb {display: block; float: left}
+a.user_thumb {padding: 0}
+a.user_thumb img {padding: 0; margin: 0}
+div.dateicon-container {float: left; width: 48px; height: 48px; padding: 3px 3px 0 7px; position: relative; z-index: 21}
+a.dateicon {float: left; width: 48px; height: 48px; background: url(../images/cxicons/48/Date.png) no-repeat; overflow: hidden; text-align: center; text-decoration: none}
+a.dateicon:hover {text-decoration: none}
+a.dateicon span {display: block; margin: 0 auto; padding-right: 2px}
+a.dateicon span.day {margin-top: 13px}
+a.dateicon span.month {position: relative; top: -1px}
+div.aside-dateicon {float: right; margin-left: -58px; width: 100%; position: relative; z-index: 20}
+div.aside-dateicon .detail {margin-left: 60px; padding-left: 5px}
+span.link-rate .link-rating, span.link-rate .link-rate-it {white-space: nowrap}
+span.link-rate .link-rating, span.link-rate:hover .link-rate-it {display: block}
+span.link-rate:hover .link-rating, span.link-rate .link-rate-it {display: none}
+span.link-rate .link-rate-it .link-rate-label {float: left}
+span.link-rate .link-rate-it .link-rate-star {float: left; position: relative; width: 80px; padding-left: 3px}
+span.link-rate .link-rate-it .link-rate-star u {padding-left: 16px; background: url(../images/icons/star_gray.png) no-repeat center left}
+span.link-rate .link-rate-it .link-rate-star u:hover {background-image: url(../images/icons/star.png)}
+span.link-rate .link-rating b {float: left; width: 20px; text-align: center; color: #333; margin-right: 1px; background: url(../images/icons/star.png) no-repeat center center}
+span.link-rate .link-rating span.link-rate-this {padding-left: 21px; background: url(../images/icons/star.png) no-repeat center left}
+#comments {position: relative; width: 100%; overflow: hidden; padding: 0; margin: 0}
+.comments_container {padding: 5px 0 0 4px; overflow: hidden; *zoom: 1}
+#add_comment {padding: 5px; *zoom: 1}
+#comments ul {margin: 3px 0 0 0; position: relative; left: -5px; *zoom: 1}
+#comments li {padding: 4px 7px; font-size: 11px; margin-bottom: 8px; *zoom: 1}
+#comments li a.delete {float: right}
+#comments li p {padding: 0; margin: 0; font-size: 11px}
+#comments li div.comment {padding: 5px}
+#comments #add_comment {margin-left: 0; padding-left: 1px; *zoom: 1}
+#comments #errorExplanation p {display: none}
+#comments #errorExplanation ul {padding: 0 0 10px 10px; margin: 0}
+#comments .fc1 {display: none}
+#comments .ft2, #comments .fc2, #comments .fc3 {margin-left: 0; width: 95%}
+#private_msg {width: 525px}
+#private_msg .fc1 {width: 80px}
+#private_msg .ft2 {margin-left: 85px}
+#private_msg .submit-row .fc1 {width: 120px}
+#private_msg .to-address {padding: 4px 1px 1px; font-size: 12px; line-height: 14px; width: 300px}
+#private_msg #blast_message_row {width: 510px; padding-top: 1em; margin: 0 1em}
+#private_msg #blast_message_row textarea {width: 500px; height: 240px}
+#private_msg #blast_subject {width: 330px}
+#network_edit .fc4 {clear: left}
+#search_results ul.items, #search_results li.item {zoom: 1; clear: both}
+#search_results li.item strong.highlight {background-color: #ffc}
+#search_results li.item strong.extra {font-style: italic; padding-top: 0.5em; display: block}
+#search_results li.item p.frag {font-size: 10px; margin: 0.5em 0 0.5em 1em}
+#search_results a:hover strong.highlight {text-decoration: underline}
+#search_results ul.blocklist {border-bottom-width: 0}
+#search_results ul.blocklist li.item {padding-bottom: 12px; line-height: 1.25em}
+#search_results ul.blocklist li.item .x32 {margin-top: 0; padding-top: 0}
+#search_results ul.blocklist li.item .detail {overflow: hidden}
+#search_results ul.blocklist li.item h5.detail {margin-bottom: 0; line-height: 17px}
+#search_results ul.blocklist li.item h5.detail .ownerline a {background-position: 1px 0}
+#search_results ul.blocklist li.item .ownerline, #search_results ul.blocklist li.item .ownerline a {font-weight: normal; font-size: 11px; line-height: 17px}
+#search_results ul.blocklist li.item .ownerline {color: #555}
+#search_results div.mainhead div h2 a {color: #333; text-decoration: underline; font-size: 85%; position: relative; top: -1px}
+#search_results div.maindetail {margin-top: 10px}
+#search_results #search_terms {font-size: 15px; color: #555}
+#search_results #search_terms span {font-size: 13px}
+#search_results #search_options .text, #search_results #search_options select {float: left}
+#search_results #search_options .text {width: 250px; background: #FFF}
+#search_results #search_options .right-options {float: right}
+#search_results #search_options .right-options ul.options {float: none; margin-top: 0; padding-top: 2px}
+#search_results #search_options .right-options strong {display: block; line-height: 18px; height: 24px; padding-left: 3px}
+#search_results #search_options .right-options select {float: none}
+#search_results .page-strip {background: #e5e5e5; padding: 4px 20px 2px 15px; margin-right: 0; margin-bottom: 1px; height: 24px}
+#search_results .page-strip p {margin: 0; line-height: 24px; font-size: 13px}
+#search_results .page-strip .left-strip {float: left}
+#search_results .page-strip .right-strip {float: right}
+.menu .mainnav {height: 25px; overflow: hidden; display: block}
+* html .menu .mainnav {margin-left: 2px}
+.menu .mainnav li {height: 22px; overflow: hidden; float: left; display: inline; position: relative; margin: 4px 0 0 -2px; z-index: 5}
+.menu .mainnav li span.sep {position: absolute; right: 1px; top: 4px; height: 10px; z-index: 7; overflow: hidden}
+.menu .mainnav li.bare span.sep {display: none}
+.menu li.active span.sep, .menu li a:hover span.sep, .menu li a.hover span.sep {visibility: hidden}
+.menu .mainnav li a, .menu .mainnav li.empty {float: left; position: relative; padding: 0 12px; height: 22px}
+.menu .mainnav li a:hover, .menu .mainnav li.active a {z-index: 10; text-decoration: none}
+.menu .subnav {clear: both; height: 22px; width: 625px; overflow: hidden}
+.menu .subnav strong {padding-left: 5px; display: inline}
+.menu .subnav ul {display: inline; height: 22px; overflow: hidden}
+.menu .subnav ul li {display: inline; height: 22px; padding: 0}
+.menu .subnav ul li a {padding: 0 7px}
+.menu.inv {background: #fff}
+.menu.inv h4, .menu.inv .mainnav li, .menu.inv .mainnav li a {color: #333}
+.menu.inv .mainnav li span.sep {border-right-color: #333}
+.movable .menu.handle.inv:hover, .movable .menu.handle.inv:hover .mainnavbg {background: #f1f5fe}
+ul.iconlist {margin: 10px; display: block}
+ul.iconlist li.item {clear: both; margin: 10px 0; display: block}
+ul.iconlist li.item .icon {margin: 1px 3px 1px -2px; height: 48px; width: 48px; float: left; overflow: hidden}
+ul.iconlist li.item .details {padding: 6px 5px; width: 325px; height: 48px; float: left; border-right: 2px solid #eaeaea}
+ul.iconlist li.item ul.details {padding-left: 20px; width: 310px}
+* html ul.iconlist li.item ul.details {padding-left: 24px; width: 305px}
+ul.iconlist li.item .actions {padding: 16px 0 16px 35px; float: left; width: 135px; border-left: 2px solid #eaeaea; position: relative; left: -2px}
+ul.iconlist li.item .actions a {display: block}
+ul.iconlist li.item .actions a.upgrade {color: #f2555e; text-decoration: underline}
+ul.iconlist li.item .actions a.primary {text-decoration: none}
+ul.iconlist li.item .actions a.primary:hover {text-decoration: underline}
+ul.blocklist {margin: 10px 0 0 0; width: 100%; border-bottom: 1px #eeefef solid; overflow: hidden}
+ul.blocklist li.item {padding-bottom: 10px; overflow: hidden; clear: left; width: 100%}
+ul.blocklist li.item .dotted {background: url(../images/gs2/dot.gif) repeat-x}
+ul.blocklist li.item div.details {float: right; width: 100%; overflow: hidden}
+ul.blocklist li.item div.details .detail {margin-right: 5px}
+ul.blocklist .item-shade {background: url(../images/gs2/forumslist-bg.gif) repeat-x; padding-top: 8px}
+ul.blocklist li.item .x32 {float: left; width: 32px; height: 32px; margin: 0; padding: 4px 6px 0 3px; overflow: hidden; z-index: 21; position: relative}
+ul.blocklist li.item div.aside-x32 {margin-left: -41px; z-index: 20; position: relative}
+ul.blocklist li.item div.aside-x32 .detail {margin-left: 41px}
+ul.blocklist li.item .x48 {float: left; width: 48px; height: 48px; margin: 0; padding: 4px 6px 0 3px; overflow: hidden; z-index: 21; position: relative}
+ul.blocklist li.item div.aside-x48 {margin-left: -57px; z-index: 20; position: relative}
+ul.blocklist li.item div.aside-x48 .detail {margin-left: 57px}
+ul.blocklist li.item .userpic {float: left; width: 62px; height: 62px; margin: 0; padding: 4px 6px 0 3px; overflow: hidden; z-index: 21; position: relative}
+ul.blocklist li.item div.aside-userpic {margin-left: -71px; z-index: 20; position: relative}
+ul.blocklist li.item div.aside-userpic .detail {margin-left: 71px}
+ul.blocklist li.item div.icon-frame {float: left; width: 46px; height: 46px; padding: 13px 16px 0 13px; margin: 0; overflow: hidden; position: relative; z-index: 21}
+ul.blocklist li.item div.icon-frame .icon {float: left; width: 46px; height: 46px; padding: 7px 0 0 7px; margin: 0; background: transparent url(../images/content/forum_icon_box.gif) no-repeat 0 0; overflow: hidden}
+ul.blocklist li.item div.aside-icon-frame {margin-left: -75px; position: relative; z-index: 20}
+ul.blocklist li.item div.aside-icon-frame .detail {margin-left: 75px}
+ul.blocklist li.item div.photo-thumb-frame {float: left; width: 77px; height: 77px; padding: 13px 16px 0 13px; margin: 0; overflow: hidden; position: relative; z-index: 21}
+ul.blocklist li.item .photo-thumb {float: left; width: 75px; height: 75px; margin: 0; padding: 0; border: 1px solid #ebe9ea; overflow: hidden}
+ul.blocklist li.item div.aside-photo-thumb-frame {margin-left: -106px; position: relative; z-index: 20}
+ul.blocklist li.item div.aside-photo-thumb-frame .detail {margin-left: 106px}
+ul.blocklist li.item .itemhead, ul.blocklist li.item .last {margin-top: 12px; clear: both; overflow: hidden}
+ul.blocklist li.item .itemhead h3 {margin: 0; padding: 0; float: left; display: block; overflow: hidden}
+ul.blocklist li.item .itemhead h3 a {text-decoration: underline}
+ul.blocklist li.item .itemhead h3 a:hover {text-decoration: none}
+ul.blocklist li.item em.info, ul.blocklist li.item p.info {clear: both; display: block}
+ul.blocklist li.item .last {margin-top: 8px; overflow: hidden}
+ul.blocklist li.item .last .user_thumb {margin-right: 7px; display: inline; overflow: hidden}
+ul.blocklist li.item .last strong {margin-top: 5px; float: left; width: 80%; overflow: hidden; color: #333}
+ul.blocklist li.item .last strong span {color: #000}
+ul.blocklist li.item .last strong span a {font-weight: bold}
+ul.blocklist li.item div.aside-image .info {padding-top: 5px}
+ul.linedlist {margin: 0; padding: 0}
+ul.linedlist li.item .left-icon {float: left; width: 17px; height: 16px}
+ul.linedlist li.item a.delete-flat, ul.linedlist li.item a.add-flat {float: left; height: 16px}
+ul.linedlist li.item .left-icon img {margin: 0 1px 0 0}
+ul.linedlist li.item .aside-left-icon {margin-left: 17px}
+ul.linedlist li.item {border-bottom: 1px solid #eaeaea; margin: 4px 0; padding: 4px 0; clear: both}
+ul.linedlist li.item.last {border-bottom-width: 0}
+ul.linedlist .right-links, ul.linedlist li.item.right-links {text-align: right; padding: 4px 16px 0 0; margin: 0}
+#upgradebar {display: block; padding: 9px 10px 12px 64px; background-image: url(../images/cxicons/48/PremiumBundle.png); background-repeat: no-repeat; background-position: 5px center; text-decoration: none}
+#upgradebar:hover {text-decoration: none}
+#upgradebar.all {background-image: url(../images/cxicons/48/PremiumBundle.png)}
+#upgradebar.create {background-image: url(../images/cxicons/48/Members.png)}
+#upgradebar.ssl {background-image: url(../images/cxicons/48/EnhancedSecurity.png)}
+#upgradebar.domain, #upgradebar.stats {background-image: url(../images/cxicons/48/DomainAndStats.png)}
+#upgradebar.storage {background-image: url(../images/cxicons/48/AdditionalStorage.png)}
+#upgradebar.branding {background-image: url(../images/cxicons/48/Appearance.png)}
+#upgradebar.perms {background-image: url(../images/cxicons/48/Permissions.png)}
+#upgradebar.questions {background-image: url(../images/cxicons/48/CustomQuestions.png)}
+#upgradebar.subgroups, #upgradebar.unlimited_subgroups {background-image: url(../images/cxicons/48/SubgroupsGlobe.png)}
+#feedback {margin: 0; padding: 10px 0; *zoom: 1}
+#feedback .fc1 {display: none}
+#feedback .wrapper {width: 495px; margin-bottom: 1em}
+#feedback .wrapper2 {width: 308px; margin-bottom: 1em}
+#feedback .wrapper2 input {padding: 2px 3px; width: 300px}
+#feedback textarea {width: 495px; height: 100px}
+#feedback .left {float: left; padding-right: 1em; padding-bottom: 1em; vertical-align: top}
+#feedback .radios input {margin: 0 0 0 14px}
+#feedback .radios span {float: left; width: 120px; white-space: nowrap; overflow: hidden}
+#feedback .radios br {clear: left}
+#feedback td {vertical-align: top}
+#feedback .cancel {float: left; padding-top: 10px; padding-bottom: 1em; vertical-align: top}
+div.my-photos-list ul.menu-items li {height: 26px; line-height: 26px}
+div.my-photos-list ul.menu-items li h5 {padding: 2px 0; height: 22px; line-height: 22px; font-size: 12px; background: #eaeaea; color: #444}
+div.my-photos-list ul.menu-items li a {padding: 2px 0; height: 22px; line-height: 22px; font-size: 12px; color: #222; overflow: hidden; white-space: nowrap}
+div.my-photos-list ul.menu-items li a:hover {background: #ffd487; color: #000}
+div.my-photos-list ul.menu-items li.photo-item a .user_thumb {margin: 0 5px 0 2px}
+div.my-photos-list.no-photo-selected ul.menu-items li.no-photo-action {display: none}
+#my_photos {width: 600px}
+#my_photos div.my-profile-photo {width: 50%; float: left; position: relative; margin-right: -3px; overflow: hidden}
+#my_photos div.submit-row {clear: both; padding: 20px 0 10px 0; line-height: 27px}
+div.my-profile-photo ul.blocklist {border-width: 0; margin: 0; padding: 0}
+div.my-profile-photo ul.blocklist li.item h4.detail {color: #333; margin-top: 0; margin-bottom: 0; overflow: hidden}
+div.my-profile-photo ul.blocklist li.item h4.detail span {display: block; color: #555; overflow: hidden; white-space: nowrap}
+div.my-profile-photo ul.blocklist li.item h4.detail em {display: block; font-weight: normal; font-size: 90%; overflow: hidden; white-space: nowrap}
+ul.extra_links {margin-top: 20px; display: block}
+ul.extra_links li {clear: both; padding: 5px 10px; display: block; line-height: 24px}
+ul.extra_links li a {color: black; float: left; display: block; padding-left: 28px; background-repeat: no-repeat; background-position: 6px 4px}
+ul.extra_links li a.inline {float: none; display: inline; padding: 0}
+ul.extra_links li.invite a {background-image: url(../images/icons/send_users.gif); background-position: 0 0}
+ul.extra_links li.signup a {background-image: url(../images/icons/add.gif)}
+ul.extra_links li.key a {background-image: url(../images/icons/key.gif)}
+ul.extra_links li.delete a {background-image: url(../images/icons/delete.gif)}
+ul.extra_links li.cancel {padding-left: 38px}
+ul.extra_links li.cancel {background-image: url(../images/icons/delete.gif); background-repeat: no-repeat; background-position:16px 8px}
+.subgroup-sidemenu {width: 100%; margin: 0; padding: 0}
+.subgroup-sidemenu a {padding-left: 40px; background-position: 3px 0; background-repeat: no-repeat; display: block; float: left; width: 110px; height: 32px; line-height: 32px}
+.subgroup-navmenu a.invite-members {background-image: url(../images/cxicons/32/InviteMembers.png)}
+.subgroup-navmenu a.home {background-image: url(../images/cxicons/32/SubgroupsGlobe.png)}
+.subgroup-navmenu a.discussions {background-image: url(../images/cxicons/32/Discussions.png)}
+.subgroup-navmenu a.blog {background-image: url(../images/cxicons/32/Blog.png)}
+.subgroup-navmenu a.blast {background-image: url(../images/cxicons/32/Blast.png)}
+.subgroup-navmenu a.events {background-image: url(../images/cxicons/32/Calendar.png)}
+.subgroup-navmenu a.cabinet {background-image: url(../images/cxicons/32/Cabinet.png)}
+.subgroup-navmenu a.photos {background-image: url(../images/cxicons/32/Photos.png)}
+.subgroup-navmenu a.members {background-image: url(../images/cxicons/32/Members.png)}
+.subgroup-navmenu a.objectives {background-image: url(../images/cxicons/32/Objectives.png)}
+div.popup-menu.subgroup-navmenu h4 {white-space: nowrap; overflow: hidden; margin: 2px; padding: 0 0 3px 9px; height: 18px}
+div.popup-menu.subgroup-navmenu ul.menu-items {width: 320px; overflow: auto}
+div.popup-menu.subgroup-navmenu ul.menu-items li {height: 32px; line-height: 32px; width: 160px; float: left}
+div.popup-menu.subgroup-navmenu ul.menu-items li h5 {font-size: 14px; text-transform: uppercase; font-style: normal}
+div.popup-menu.subgroup-navmenu ul.menu-items li a {padding-left: 41px; background-position: 3px 0}
+.mceMenu .mceMenuItem .code pre.mceText {white-space: pre; font-family: monaco, "Courier New", "Terminal", monospace; border: 1px solid #999; background: #333; color: #5e5}
+#nonmodal {position: absolute; top: 0; left: 0; width: 100%; height: 0; overflow: visible; z-index: 2999; text-align: left}
+#modal {display: none; text-align: left}
+.modal #modal {display: block; position: fixed; left: 0; right: 0; top: 0; bottom: 0; height: 100%; width: 100%; z-index: 3000}
+* html.modal, * html.modal body {height: 100%; width: 100%; overflow: hidden}
+* html.modal #xbody {width: 100%; height: 100%; overflow: auto; overflow-y: scroll; margin-left: 0}
+* html.modal #modal {position: absolute}
+#dimscreen, .dimmer {height: 100%; width: 100%; top: 0; left: 0; z-index: 4900; *zoom: 1; *overflow: hidden; *background-color: transparent}
+.dimmer {position: absolute; opacity: 0.55; background-color: #fff; *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4dffffff,endColorstr=#4dffffff)}
+#dimscreen {display: none; position: fixed; opacity: 0.7; background-color: #024; *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc002244,endColorstr=#cc002244)}
+.scroll-lock #dimscreen {position: absolute}
+.dim #dimscreen {display: block}
+.waiting {background-image: url(../images/effects/spinner.gif); background-repeat: no-repeat; background-position: center center}
+.big-waiting {background-image: url(../images/effects/big-spinner.gif); background-repeat: no-repeat; background-position: center center}
+.waiting-dark {background-image: url(../images/effects/spinner-dark.gif); background-repeat: no-repeat; background-position: center center}
+.big-waiting-dark {background-image: url(../images/effects/big-spinner-dark.gif); background-repeat: no-repeat; background-position: center center}
+.dimmer.waiting-dark, .dimmer.big-waiting-dark {opacity: 0.5; background-color: #024; *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f002244,endColorstr=#7f002244)}
+#dimmer.waiting, #dimmer.big-waiting {opacity: 0.62; background-color: #fff; *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4dffffff,endColorstr=#4dffffff)}
+html.scroll-lock, .scroll-lock body {height: 100%; width: 100%; overflow: hidden}
+.scroll-lock #xbody {overflow: auto; height: 100%; width: 100%; padding: 0; margin: 0}
+* html.scroll-lock #xbody {overflow-y: scroll; margin-left: 0}
+body.xsplash #xbody, body.xsplash #xbody #content {width: 100%; height: 100%; margin: 0; padding: 0; _overflow: hidden}
+body.xsplash #modal .movr_width {width: 450px}
+body.xsplash #nonmodal {z-index: 9000}
+body.xsplash #modal #movr_scroll {*width: 100%}
+body.xsplash #modal #mdlg_scroll {*width: 450px}
+body.xsplash #modal #mdlg_content {*width: 394px}
+body.xsplash h3.title {overflow: auto; padding-top: 0; margin-top: 10px}
+body.xsplash h3.title span {font-size: 95%; font-weight: normal; color: #222}
+body.xsplash h3.title img.logo {float: left; vertical-align: middle; padding: 5px .5em .3em 0}
+#modal .movr_decorator {position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: #024; opacity: 0.7; z-index: 5000; *display: none}
+#modal .movr_wrap {position: absolute; top: 0; left: 0; height: 100%; width: 100%; display: block; z-index: 5001; overflow: auto; *overflow: hidden; *zoom: 1; *text-align: center; *filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b3002244,endColorstr=#b3002244); *background: transparent url(../images/blank.gif)}
+#modal .movr_scroll {display: block; margin: 0 auto; height: 100%; width: 100%; z-index: 5001; overflow-x: hidden; overflow-y: auto; *text-align: center; *overflow-x: visible; *overflow-y: visible; *width: 100%; *margin: 0}
+#modal .movr {margin: auto; height: 100%; width: 100%; display: table; z-index: 5002; vertical-align: middle; *position: static; *display: block; *text-align: center}
+#modal div.movr_width {width: 400px; *width: 100%}
+#modal .mdlg_scroll {display: table-row; z-index: 5002; vertical-align: middle; *width: 400px; *height: 100%; *overflow-y: auto; *position: relative; *display: block; *text-align: right}
+#modal .mdlg_wrap {display: table-cell; vertical-align: middle; *zoom: 1; *text-align: left; *display: inline}
+#modal .mdlg_decorator {display: none; *height: 100%; *width: 0; *zoom: 1; *display: inline; *vertical-align: middle}
+.mdlg {margin: 0 1px; background: white; border-width: 2px; border-style: solid}
+.mdlg .mdlg_content {position: relative; top: 0; left: 0; z-index: 5003; padding: 0; margin: 0}
+.mdlg .dimmer {z-index: 5004}
+.mdlg, .mdlg:focus {outline: thin dotted #eee}
+.mdlg a.close {position: absolute; top: 2px; right: 3px; height: 17px; width: 17px; overflow: hidden; color: #000; background: url(../images/gs2/close-gray.png) no-repeat 0 0; text-indent: -9999px; z-index: 12000}
+.mdlg_focuser {position: absolute; top: 0; left: 0; height: 1px; width: 1px; display: block; background: none; opacity: 0}
+.mdlg_focuser:focus {outline-width: 0; border-width: 0}
+#modal_dialog_message {position: relative; padding: 10px 10px 15px 10px; margin: 0}
+#modal_dialog_message h2.titlebar {font: bold 18px/22px Tahoma, Arial, sans serif; margin: 0 -10px; padding: 0 10px; height: 27px; position: relative; top: -10px}
+#modal_dialog_message h2.caption {font: bold 18px/22px Tahoma, Arial, sans serif; padding: 0 5px; margin: 0; height: 27px}
+#modal_dialog_message h3 {margin: 5px 0 15px 0}
+.overlay_dialog {background-color: #556677; -moz-opacity: 0.6; opacity: 0.6}
+.eswd-pos {display: block; position: absolute; z-index: 3500; margin: 0; padding: 5px; text-align: left}
+.eswd {display: table; width: auto; table-layout: fixed; z-index: 9; border-collapse: collapse; border-spacing: 0; border-width: 0; margin: 0; padding: 0}
+.eswd-hold {display: table-row; width: auto; margin: 0; padding: 0; border-width: 0; z-index: 9}
+.eswd-wrap {display: table-cell; width: auto; margin: 0; padding: 0; border-width: 0}
+.eswd-shrink {position: relative; display: inline-block; *display: inline}
+.eswd-vside {padding: 0 17px; width: auto}
+.eswd-tshade, .eswd-bshade {padding-top: 8px; position: relative; z-index: 2}
+.eswd-tshade {background: url(../images/gs2/popup-t.png) repeat-x 0 0}
+.eswd-bshade {background: url(../images/gs2/popup-b.png) repeat-x 0 -9px}
+.eswd-corner {z-index: 1; width: 17px; height: 17px; position: absolute; display: inline; overflow: hidden; background-image: url(../images/gs2/popup-sq.png); background-repeat: no-repeat}
+.eswd-tl {background-position: top left; top: 0; left: 0}
+.eswd-tr {background-position: top right; top: 0; right: 0}
+.eswd-bl {background-position: bottom left; bottom: 0; left: 0}
+.eswd-br {background-position: bottom right; bottom: 0; right: 0}
+.eswd-lshade {padding: 0 0 0 8px; margin: 9px 0; position: relative; z-index: 3; zoom: 1; background: url(../images/gs2/popup-l.png) repeat-y 0 0}
+.eswd-rshade {padding: 1px 8px 1px 0; margin: 0; position: relative; z-index: 3; zoom: 1; background: url(../images/gs2/popup-r.png) repeat-y 100% 0}
+.eswd-inner {background-color: white; margin: 0; padding: 0; z-index: 4}
+.eswd-content {width: auto; min-height: 34px; min-width: 140px; max-width: 500px; padding: 1px 0; margin: -10px 0; z-index: 4; background-color: white; border-width: 2px; border-style: solid; position: relative; overflow: hidden}
+.eswd-content h2.caption {font: bold 14px/20px Tahoma, Arial, sans serif; margin: -1px 0 2px 0; padding: 1px 5px}
+.eswd-content.eswd-small {min-width: 180px; max-width: 280px}
+.eswd-content.eswd-small .eswd-small {width: auto; min-width: 180px; max-width: 280px; overflow: hidden; padding: 3px 5px}
+.eswd-minwidth {clear: both; overflow: hidden}
+.eswd-pos a.close {position: absolute; top: 2px; right: 3px; height: 17px; width: 17px; overflow: hidden; color: #000; background: url(../images/gs2/close-gray.png) no-repeat 0 0; text-indent: -9999px; z-index: 12000}
+div.eswd-left-of {padding-top: 0; padding-bottom: 0; padding-left: 0}
+div.eswd-right-of {padding-top: 0; padding-bottom: 0; padding-right: 0}
+div.eswd-bottom-of {padding-bottom: 0; padding-right: 0; padding-left: 0}
+div.eswd-top-of {padding-top: 0; padding-right: 0; padding-left: 0}
+div.eswd-floating {padding: 0}
+.eswd-pt {display: none; position: absolute; z-index: 10; overflow: hidden}
+.eswd-left-of .eswd-pt {display: block; top: 17px; right: 0}
+.eswd-right-of .eswd-pt {display: block; top: 17px; left: 0}
+.eswd-bottom-of .eswd-pt {display: block; left: 17px; top: 0}
+.eswd-top-of .eswd-pt {display: block; left: 17px; bottom: 0}
+em.eswd-pt b, em.eswd-pt u {display: block; width: 0; height: 0; overflow: hidden; position: absolute; top: 0; left: 0}
+.eswd-pt u {border-width: 15px; border-style: solid}
+.eswd-pt b {border: 12px solid white; margin: 3px}
+.eswd-pt i {display: block; float: left; width: 15px; height: 15px; overflow: hidden}
+.eswd-left-of .eswd-pt i, .eswd-right-of .eswd-pt i {clear: left}
+.eswd-pt em {width: 1px; height: 1px; position: absolute}
+div.eswd-left-of .eswd-pt b, div.eswd-left-of .eswd-pt u {border-top-color: transparent; border-bottom-color: transparent; border-bottom-style: dotted; border-top-style: dotted; border-right-width: 0}
+div.eswd-left-of .eswd-pt b {margin-left: 0}
+div.eswd-left-of .eswd-pt em {right: 0; top: 50%}
+div.eswd-right-of .eswd-pt b, div.eswd-right-of .eswd-pt u {border-top-color: transparent; border-bottom-color: transparent; border-bottom-style: dotted; border-top-style: dotted; border-left-width: 0}
+div.eswd-right-of .eswd-pt b {margin-right: 0}
+div.eswd-right-of .eswd-pt em {left: 0; top: 50%}
+div.eswd-bottom-of .eswd-pt b, div.eswd-bottom-of .eswd-pt u {border-left-color: transparent; border-right-color: transparent; border-left-style: dotted; border-right-style: dotted; border-top-width: 0}
+div.eswd-bottom-of .eswd-pt b {margin-bottom: 0}
+div.eswd-bottom-of .eswd-pt em {left: 50%; top: 0}
+div.eswd-top-of .eswd-pt b, div.eswd-top-of .eswd-pt u {border-left-color: transparent; border-right-color: transparent; border-left-style: dotted; border-right-style: dotted; border-bottom-width: 0}
+div.eswd-top-of .eswd-pt b {margin-top: 0}
+div.eswd-top-of .eswd-pt em {left: 50%; bottom: 0}
+.etip {z-index: 10005; padding: 4px 5px}
+div.etip div.eswd-inner {background-color: #fcf7e3}
+div.etip div.eswd-content {margin: -11px -2px; padding: 1px; border-width: 1px; border-color: #fcdf6b; background-color: #fcf7e3; min-height: 24px; min-width: 64px}
+div.basictip, div.stickytip, div.smalltip {display: none; overflow: hidden; padding: 3px 5px}
+div.basictip, div.stickytip {min-width: 250px; max-width: 550px}
+div.smalltip {min-width: 180px; max-width: 280px}
+div.etip div.basictip, div.etip div.stickytip, div.etip div.smalltip {display: block}
+div.hover_preview p {font-size: 11px}
+div.hover_preview a {font-weight: normal; text-decoration: underline}
+div.hover_preview {max-height: 200px; overflow: hidden}
+.etip .eswd-pt u {border-width: 12px; border-color: #fcdf6b}
+.etip .eswd-pt b {border-width: 10px; border-color: #fcf7e3; margin: 2px}
+.etip .eswd-pt i {width: 12px; height: 12px}
+.etip .eswd-handle-horiz-south {border-bottom: 1px solid #fcdf6b}
+.etip .eswd-handle-horiz-south i {height: 6px}
+.etip .eswd-handle-horiz-south u, .etip .eswd-handle-horiz-south b {border-bottom-width: 0}
+div.etip em.eswd-handle-horiz-south em {top: auto; bottom: 0}
+.etip .eswd-handle-horiz-north {border-top: 1px solid #fcdf6b}
+.etip .eswd-handle-horiz-north i {height: 6px}
+.etip .eswd-handle-horiz-north u, .etip .eswd-handle-horiz-north b {border-top-width: 0}
+.etip .eswd-handle-horiz-north b {margin-top: 0}
+div.etip em.eswd-handle-horiz-north em {top: 0}
+.etip .eswd-handle-vert-east {border-right: 1px solid #fcdf6b}
+.etip .eswd-handle-vert-east i {width: 6px}
+.etip .eswd-handle-vert-east u, .etip .eswd-handle-vert-east b {border-right-width: 0}
+div.etip em.eswd-handle-vert-east em {left: auto; right: 0}
+.etip .eswd-handle-vert-west {border-left: 1px solid #fcdf6b}
+.etip .eswd-handle-vert-west i {width: 6px}
+.etip .eswd-handle-vert-west u, .etip .eswd-handle-vert-west b {border-left-width: 0}
+.etip .eswd-handle-vert-west b {margin-left: 0}
+div.etip em.eswd-handle-vert-west em {left: 0}
+div.watermark-west {padding: 5px 0; background: url(../images/layout/logo_white_tiny.gif) no-repeat center left}
+ol.bold-steps li {font-weight: bold}
+ol.bold-steps li span {font-weight: normal}
+#modal .working {padding-bottom: 23px; background: url(../images/loading-bar.gif) no-repeat bottom center}
