@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  layout 'admin'
   # GET /users
   # GET /users.xml
   def index

@@ -2,10 +2,10 @@ BesGroupsite::Application.routes.draw do
   resources :users
 
   get "home/index"
-
+  get "users/index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  root :to => "home#index"
+  root :to => "users#index"
 
  
   # Sample of regular route:
