@@ -1,8 +1,10 @@
 BesGroupsite::Application.routes.draw do
+  resources :events
+
   resources :users
 
-  get "home/index"
-  get "users/index"
+  # get "home/index"
+  # get "users/index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
   root :to => "users#index"
