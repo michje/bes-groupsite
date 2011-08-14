@@ -7,6 +7,7 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3'
 gem "jquery-rails"
+gem "table_builder", "~> 0.2.3"
 
 
 group :development, :test do
