@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20110810192325) do
     t.time     "start_time"
     t.time     "end_time"
     t.text     "description"
+    t.string   "location"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

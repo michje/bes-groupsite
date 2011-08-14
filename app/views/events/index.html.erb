@@ -17,7 +17,7 @@
         	</p>
         	<p class="detail">
 				<%= event.date.strftime("%A") %>,  <%= event.start_time.strftime("%Hu%M") %> - <%= event.end_time.strftime("%Hu%M") %><br/>
-           		<em>Taverne Ons Huis, Villerslei 128, Schoten, Belgium</em><br/>
+           		<em><%= event.location %></em><br/>
 				<%= link_to 'Bewerken', edit_event_path(event) %> | <%= link_to 'Verwijderen', event, :confirm => 'Bent u zeker?', :method => :delete %>
 			</p>
       	</div>
