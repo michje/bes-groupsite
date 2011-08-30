@@ -1,30 +1,66 @@
-<p id="notice"><%= notice %></p>
+<div class="mainhead">
+	<img src="/images/cxicons/48/Calendar.png" class="icon" alt="" hspace="1" width="48" height="48"/>
+  	<div class="with-extra">
+    	<h2>Calendar</h2>
+    	<%= link_to 'Back', events_path %>
+  	</div>
+</div>
 
-<p>
-  <b>Title:</b>
-  <%= @event.title %>
-</p>
+<div class="maindetail">
+	<h3 class="only"><%= @event.title %></h3>
 
-<p>
-  <b>Date:</b>
-  <%= @event.date %>
-</p>
+	<div id="event">
 
-<p>
-  <b>Start time:</b>
-  <%= @event.start_time %>
-</p>
+    	<div class="actions">
+	      	<%= link_to 'Edit', edit_event_path(@event) %> &nbsp;|&nbsp; Delete
+	    </div>
 
-<p>
-  <b>End time:</b>
-  <%= @event.end_time %>
-</p>
+	    <dl class="details">
+	      	<dt>When:</dt>
+	      	<dd><%= @event.date %></dd>
 
-<p>
-  <b>Description:</b>
-  <%= @event.description %>
-</p>
+	      	<dt>Where:</dt>
+	      	<dd>Taverne Ons Huis, Villerslei 128, Schoten, Belgium</dd>
+		</dl>
+		
+	</div>
 
+    <div class="options">
+    	<div id="rsvp" class="ncolumn column1">
+			<p style="clear: both; padding-top: 2.5em;">
+  				<b>Who has RSVPed thus far:</b>
+			</p>
+    
+			<div style="color:green; clear: left;">
+      			<div>
+          			<a href="http://bes.groupsite.com/network/show_profile/798791" class="user_thumb" style="margin-right: 3px; margin-bottom: 4px;height: 16px; width: 16px;"><img height="16" width="16" valign="middle"  src="http://www.groupsite.com/images/content/default_male.gif" alt="" /></a>
+          			<a href="/network/profile/798791" style="text-decoration: underline; color:green">Spandex</a> said that he will attend.
+      			</div>
+    		</div>
+    		<div style="color:red; clear: left;">
+      			<div>
+          			<a href="http://bes.groupsite.com/network/show_profile/800496" class="user_thumb" style="margin-right: 3px; margin-bottom: 4px;height: 16px; width: 16px;"><img height="16" width="16" valign="middle"  src="http://www.groupsite.com/images/content/default_female.gif" alt="" /></a>
+          			<a href="/network/profile/800496" style="text-decoration: underline; color:red">BarthVader</a> said that she won't attend.
+      			</div>
+    		</div>
 
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+      	</div>
+
+      	<a name="view_comments"></a>
+      	<div id="comments" class="ncolumn column2">
+        	<div class="comments_container">
+		</div>
+  				<h4>Comments</h4>
+				<p> No one has commented yet. </p>
+
+  				<a name="post_a_comment"></a>
+    			<a href="#" style="display: none;">Add a Comment &raquo;</a>
+
+    			<a href="#">Add a Comment &raquo;</a>
+
+    			<div id="add_comment" style="display: none;">
+      				<h5>Add your Comment</h5>
+   				</div>
+			</div>
+	</div>
+</div>
