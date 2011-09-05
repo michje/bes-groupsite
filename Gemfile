@@ -14,6 +14,7 @@ group :development, :test do
   gem "launchy"
 end
 
+gem 'i18n','0.5.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'

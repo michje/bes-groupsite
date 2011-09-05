@@ -1,2 +1,249 @@
 en:
-    hello: "Administration"
+  
+    direction: ltr
+    date:
+      formats:
+        # Use the strftime parameters for formats.
+        # When no format has been given, it uses default.
+        # You can provide other formats here if you like!
+        default: "%m/%d/%Y"
+        short: "%b %d"
+        long: "%B %d, %Y"
+
+    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
+
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
+    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    # Used in date_select and datime_select.
+    order:
+      - :year
+      - :month
+      - :day
+
+    time:
+      formats:
+        default: "%m/%d/%Y %I:%M %p"
+        time: "%I:%M %p"
+        short: "%d %b %H:%M"
+        long: "%B %d, %Y %H:%M"
+      am: "am"
+      pm: "pm"
+
+    datetime:
+      distance_in_words:
+        half_a_minute: "half a minute"
+        less_than_x_seconds:
+          one:   "less than 1 second"
+          other: "less than %{count} seconds"
+        x_seconds:
+          one:   "1 second"
+          other: "%{count} seconds"
+        less_than_x_minutes:
+          one:   "less than a minute"
+          other: "less than %{count} minutes"
+        x_minutes:
+          one:   "1 minute"
+          other: "%{count} minutes"
+        about_x_hours:
+          one:   "about 1 hour"
+          other: "about %{count} hours"
+        x_days:
+          one:   "1 day"
+          other: "%{count} days"
+        about_x_months:
+          one:   "about 1 month"
+          other: "about %{count} months"
+        x_months:
+          one:   "1 month"
+          other: "%{count} months"
+        about_x_years:
+          one:   "about 1 year"
+          other: "about %{count} years"
+        over_x_years:
+          one:   "over 1 year"
+          other: "over %{count} years"
+        almost_x_years:
+          one:   "almost 1 year"
+          other: "almost %{count} years"
+
+    number:
+      format:
+        separator: "."
+        delimiter: ""
+        precision: 3
+
+      human:
+        format:
+          delimiter: ""
+          precision: 1
+        storage_units:
+          format: "%n %u"
+          units:
+            byte:
+              one: "Byte"
+              other: "Bytes"
+            kb: "kB"
+            mb: "MB"
+            gb: "GB"
+            tb: "TB"
+
+
+  # Used in array.to_sentence.
+    support:
+      array:
+        sentence_connector: "and"
+        skip_last_comma: false
+
+    activerecord:
+      errors:
+        template:
+          header:
+            one:    "1 error prohibited this %{model} from being saved"
+            other:  "%{count} errors prohibited this %{model} from being saved"
+        messages:
+          inclusion: "is not included in the list"
+          exclusion: "is reserved"
+          invalid: "is invalid"
+          confirmation: "doesn't match confirmation"
+          accepted: "must be accepted"
+          empty: "can't be empty"
+          blank: "can't be blank"
+          too_long: "is too long (maximum is %{count} characters)"
+          too_short: "is too short (minimum is %{count} characters)"
+          wrong_length: "is the wrong length (should be %{count} characters)"
+          taken: "has already been taken"
+          not_a_number: "is not a number"
+          not_a_date: "is not a valid date"
+          greater_than: "must be greater than %{count}"
+          greater_than_or_equal_to: "must be greater than or equal to %{count}"
+          equal_to: "must be equal to %{count}"
+          less_than: "must be less than %{count}"
+          less_than_or_equal_to: "must be less than or equal to %{count}"
+          odd: "must be odd"
+          even: "must be even"
+          greater_than_start_date: "must be greater than start date"
+          not_same_project: "doesn't belong to the same project"
+          circular_dependency: "This relation would create a circular dependency"
+          cant_link_an_issue_with_a_descendant: "An issue cannot be linked to one of its subtasks"
+
+    actionview_instancetag_blank_option: Please select
+
+    general_text_No: 'No'
+    general_text_Yes: 'Yes'
+    general_text_no: 'no'
+    general_text_yes: 'yes'
+    general_lang_name: 'English'
+    general_csv_separator: ','
+    general_csv_decimal_separator: '.'
+    general_csv_encoding: ISO-8859-1
+    general_pdf_encoding: UTF-8
+    general_first_day_of_week: '7'
+
+    field_name: Name
+    field_description: Description
+    field_summary: Summary
+    field_is_required: Required
+    field_firstname: First name
+    field_lastname: Last name
+    field_mail: Email
+    field_filename: File
+    field_filesize: Size
+    field_downloads: Downloads
+    field_author: Author
+    field_created_on: Created
+    field_updated_on: Updated
+    field_field_format: Format
+    field_is_for_all: For all projects
+    field_possible_values: Possible values
+    field_regexp: Regular expression
+    field_min_length: Minimum length
+    field_max_length: Maximum length
+    field_value: Value
+    field_category: Category
+    field_title: Title
+    field_project: Project
+    field_issue: Issue
+    field_status: Status
+    field_notes: Notes
+    field_is_closed: Issue closed
+    field_is_default: Default value
+    field_tracker: Tracker
+    field_subject: Subject
+    field_due_date: Due date
+    field_assigned_to: Assignee
+    field_priority: Priority
+    field_fixed_version: Target version
+    field_user: User
+    field_principal: Principal
+    field_role: Role
+    field_homepage: Homepage
+    field_is_public: Public
+    field_parent: Subproject of
+    field_is_in_roadmap: Issues displayed in roadmap
+    field_login: Login
+    field_mail_notification: Email notifications
+    field_admin: Administrator
+    field_last_login_on: Last connection
+    field_language: Language
+    field_effective_date: Date
+    field_password: Password
+    field_new_password: New password
+    field_password_confirmation: Confirmation
+    field_version: Version
+    field_type: Type
+    field_host: Host
+    field_port: Port
+    field_account: Account
+    field_base_dn: Base DN
+    field_attr_login: Login attribute
+    field_attr_firstname: Firstname attribute
+    field_attr_lastname: Lastname attribute
+    field_attr_mail: Email attribute
+    field_onthefly: On-the-fly user creation
+    field_start_date: Start date
+    field_done_ratio: "% Done"
+    field_auth_source: Authentication mode
+    field_hide_mail: Hide my email address
+    field_comments: Comment
+    field_url: URL
+    field_start_page: Start page
+    field_subproject: Subproject
+    field_hours: Hours
+    field_activity: Activity
+    field_spent_on: Date
+    field_identifier: Identifier
+    field_is_filter: Used as a filter
+    field_issue_to: Related issue
+    field_delay: Delay
+    field_assignable: Issues can be assigned to this role
+    field_redirect_existing_links: Redirect existing links
+    field_estimated_hours: Estimated time
+    field_column_names: Columns
+    field_time_entries: Log time
+    field_time_zone: Time zone
+    field_searchable: Searchable
+    field_default_value: Default value
+    field_comments_sorting: Display comments
+    field_parent_title: Parent page
+    field_editable: Editable
+    field_watcher: Watcher
+    field_identity_url: OpenID URL
+    field_content: Content
+    field_group_by: Group results by
+    field_sharing: Sharing
+    field_parent_issue: Parent task
+    field_member_of_group: "Assignee's group"
+    field_assigned_to_role: "Assignee's role"
+    field_text: Text field
+    field_visible: Visible
+    field_warn_on_leaving_unsaved: "Warn me when leaving a page with unsaved text"
+    field_issues_visibility: Issues visibility
+    field_is_private: Private
+    field_commit_logs_encoding: Commit messages encoding
+    field_scm_path_encoding: Path encoding
+    field_path_to_repository: Path to repository
+    field_root_directory: Root directory
+    field_cvsroot: CVSROOT
+    field_cvs_module: Module

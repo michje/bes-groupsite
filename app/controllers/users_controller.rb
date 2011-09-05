@@ -1,8 +1,13 @@
 class UsersController < ApplicationController
   layout 'admin'
+
+  helper :sort
+  include SortHelper
   # GET /users
   # GET /users.xml
   def index
+    sort_init  'login', 'asc'
+    sort_update %w(login firstname lastname)
     @users = User.all
 
     respond_to do |format|

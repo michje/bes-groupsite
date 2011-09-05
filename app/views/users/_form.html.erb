@@ -10,7 +10,45 @@
       </ul>
     </div>
   <% end %>
+ <%#*t.column "login", :string, :limit => 30, :default => "", :null => false%>
+      <%#*t.column "hashed_password", :string, :limit => 40, :default => "", :null => false%>
+      <%#*t.column "firstname", :string, :limit => 30, :default => "", :null => false%>
+      <%#*t.column "lastname", :string, :limit => 30, :default => "", :null => false%>
+      <%#*t.column "mail", :string, :limit => 60, :default => "", :null => false%>
+      <%#*t.column "mail_notification", :boolean, :default => true, :null => false%>
+      <%#*t.column "admin", :boolean, :default => false, :null => false%>
+      <%#*t.column "status", :integer, :default => 1, :null => false%>
+      <%#*t.column "last_login_on", :datetime%>
+      <%#*t.column "language", :string, :limit => 2, :default => ""%>
+      <%#*t.column "auth_source_id", :integer%>
+      <%#*t.column "created_on", :timestamp%>
+      <%#*t.column "updated_on", :timestamp%>
 
+
+  <div class="field">
+    <%= f.label :login %><br />
+    <%= f.text_field :login, :required => true, :size => 30 %>
+  </div>
+<div class="field">
+    <%= f.label :firstname %><br />
+    <%= f.text_field :firstname, :required => true, :size => 30 %>
+  </div>
+<div class="field">
+    <%= f.label :lastname %><br />
+    <%= f.text_field :lastname, :required => true, :size => 30 %>
+  </div>
+  <div class="field">
+    <%= f.label :hashed_password %><br />
+    <%= f.password_field :hashed_password, :required => true, :size => 40  %>
+  </div>
+  <div class="field">
+    <%= f.label :mail %><br />
+    <%= f.text_field :mail, :required => true, :size => 60%>
+  </div>
+  <div class="field">
+    <%= f.label :admin %><br />
+    <%=  f.check_box :admin %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

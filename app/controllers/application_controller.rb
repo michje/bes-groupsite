@@ -1,3 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
+ include Bessite::I18n
+ # protect_from_forgery
+#
 end
